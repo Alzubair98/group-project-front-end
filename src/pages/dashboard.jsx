@@ -1,10 +1,11 @@
 import React from 'react'
+import Mainpage from '../component/mainpage/mainpage'
 
 function Dashboard() {
   return (
-    <div>
-      <h1>Startig page / dashboard</h1>
-    </div>
+    <>
+      <Mainpage />
+    </>
   )
 }
 
