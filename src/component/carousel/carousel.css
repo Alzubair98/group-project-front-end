@@ -1,0 +1,21 @@
+h1 {
+    margin: 4rem 0;
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #333;
+    background-color: brown;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+}
+
+
+.test {
+    border-radius: 50%;
+    width: 50rem;
+    height: 33rem;
+}

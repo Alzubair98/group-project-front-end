@@ -1,0 +1,18 @@
+@media only screen and (max-width: 600px) {
+    .sidebar {
+      background-color: red;
+    }
+  }
+
+  .bars {
+    display: none;
+  }
+
+  .middle_section {
+    margin: 100% 0%;
+  }
+
+  .icon {
+    display: flex;
+    gap: 15px;
+  }
