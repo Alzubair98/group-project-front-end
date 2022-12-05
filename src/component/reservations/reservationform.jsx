@@ -12,7 +12,7 @@ const ReservationForm = () => {
 
  const [user_id, setUserId] = useState();
  const [location, setLocation] = useState('');
- const [date, setDate] = useState();
+ 
 
  const handleClick = (e) => {
     e.preventDefault();
@@ -21,5 +21,24 @@ const ReservationForm = () => {
     };
     dispatch(addReservation(formParam));
  };
- 
-}
+
+ return (
+    <form onSubmit={handleClick}>
+        <div>
+            <label>
+            User ID
+            </label>
+            <input type="number" value={user_id} onChange={(e) => {setUserId(e.target.value);}} />
+        </div>
+
+        <div>
+            <label>
+            Location
+            </label>
+            <input type="text" value={location} onChange={(e) => {setLocation(e.target.value);}} />
+        </div>
+
+        <input type="submit" value="Add Reservation"  />
+    </form>
+ );
+};
