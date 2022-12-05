@@ -9,4 +9,18 @@ const addFormReservation = (payload) => ({
 })
 
 
+//send data to the api for reservation 
+export const addReservation = (data) => async (dispatch) => {
+    const response = await fetch(apiurl, {
+        method: 'POST',
+        heaers: {
+            'Content-Type': 'application/json', 
+        },
+        body: JSON.stringify(data),
+    });
+    dispatch(addFormReservation(response));
+};
+
+
+
 
