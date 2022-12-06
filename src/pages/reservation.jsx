@@ -4,8 +4,8 @@ import React from 'react';
 function Reservation() {
   return (
     <div>
-      <h1>Reservation page</h1>
-
+      <h1>Reservation</h1>
+      <Form />
     </div>
   );
 }

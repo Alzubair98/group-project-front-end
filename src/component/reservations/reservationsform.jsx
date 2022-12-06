@@ -24,4 +24,12 @@ const Form = () => (
       <option value="3">Three</option>
     </CFormSelect>
     <CCol xs={12}>
-      <CButton color=
+      <CButton color="primary" type="submit">
+        Submit form
+      </CButton>
+    </CCol>
+
+  </>
+);
+
+export default Form;
