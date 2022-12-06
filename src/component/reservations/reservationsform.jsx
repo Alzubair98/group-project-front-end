@@ -6,3 +6,12 @@ import dummy from '../../dummyApi/dummy';
 const Form = () => (
     <>
       <CFormSelect size="lg" className="mb-3" aria-label="Large select example">
+      <option>Select and reserve a bike</option>
+      {
+      dummy.map((bike, index) => (
+        <option value={index} key={uuid()}>
+
+          {bike.name}
+
+        </option>
+      ))
