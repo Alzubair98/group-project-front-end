@@ -15,3 +15,6 @@ const Form = () => (
 
         </option>
       ))
+    }
+    </CFormSelect>
+    <CFormSelect size="sm" className="mb-3" aria-label="Small select example">
