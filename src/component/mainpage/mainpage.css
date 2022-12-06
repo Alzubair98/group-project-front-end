@@ -1,15 +1,12 @@
 .mainpage {
   display: flex;
-  flex-wrap: wrap;
+  background-color: pink;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
-}
-
-.cardContainer {
-  width: 8rem;
-}
-
-.imgcard {
-  width: 5rem;
-  height: 100%;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 80%;
+  width: 100%;
 }

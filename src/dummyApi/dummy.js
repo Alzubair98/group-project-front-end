@@ -4,7 +4,7 @@ const dummy = [
     name: 'dummy1',
     description: 'dummy1 description',
     price: 100,
-    image: 'https://picsum.photos/200/300',
+    image: 'https://picsum.photos/200/300?random=1',
     reserve: false,
   },
   {
@@ -12,7 +12,7 @@ const dummy = [
     name: 'dummy2',
     description: 'dummy2 description',
     price: 200,
-    image: 'https://picsum.photos/200/300',
+    image: 'https://picsum.photos/200/300?random=2',
     reserve: false,
   },
   {
@@ -20,7 +20,7 @@ const dummy = [
     name: 'dummy3',
     description: 'dummy3 description',
     price: 300,
-    image: 'https://picsum.photos/200/300',
+    image: 'https://picsum.photos/200/300?random=3',
     reserve: false,
   },
   {
@@ -28,7 +28,7 @@ const dummy = [
     name: 'dummy4',
     description: 'dummy4 description',
     price: 400,
-    image: 'https://picsum.photos/200/300',
+    image: 'https://picsum.photos/200/300/?random=4',
     reserve: false,
   },
   {
@@ -36,7 +36,7 @@ const dummy = [
     name: 'dummy5',
     description: 'dummy5 description',
     price: 500,
-    image: 'https://picsum.photos/200/300',
+    image: 'https://picsum.photos/200/300/?random=5',
     reserve: false,
   },
   {
@@ -44,7 +44,7 @@ const dummy = [
     name: 'dummy6',
     description: 'dummy6 description',
     price: 600,
-    image: 'https://picsum.photos/200/300',
+    image: 'https://picsum.photos/200/300/?random=6',
     reserve: false,
   },
   {
@@ -52,7 +52,7 @@ const dummy = [
     name: 'dummy7',
     description: 'dummy7 description',
     price: 700,
-    image: 'https://picsum.photos/200/300',
+    image: 'https://picsum.photos/200/300/?random=7',
     reserve: false,
   },
 ];

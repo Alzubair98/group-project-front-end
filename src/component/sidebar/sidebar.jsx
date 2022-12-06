@@ -3,6 +3,7 @@ import { FaBars } from 'react-icons/fa';
 import {
   AiFillTwitterCircle, AiFillFacebook, AiOutlineAmazon, AiOutlineInstagram,
   AiOutlineHome, AiFillCarryOut, AiOutlineGooglePlus, AiOutlineSolution, AiTwotoneAlert,
+  AiTwotoneThunderbolt,
 } from 'react-icons/ai';
 import { NavLink } from 'react-router-dom';
 import uuid from 'react-uuid';
@@ -17,6 +18,11 @@ function Sidebar({ children }) {
       path: '/',
       name: 'Dashboard',
       icon: <AiOutlineHome />,
+    },
+    {
+      path: '/model',
+      name: 'Model',
+      icon: <AiTwotoneThunderbolt />,
     },
     {
       path: '/reserve',
