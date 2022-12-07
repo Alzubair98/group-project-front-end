@@ -3,7 +3,9 @@ import { CFormSelect, CButton, CCol } from '@coreui/react';
 import uuid from 'react-uuid';
 import dummy from '../../dummyApi/dummy';
 
-const Form = () => ( <>
+
+const Form = () => (
+  <>
     <CFormSelect size="lg" className="mb-3" aria-label="Large select example">
       <option>Select and reserve a bike</option>
       {
@@ -33,5 +35,3 @@ const Form = () => ( <>
 );
 
 export default Form;
-
-   
