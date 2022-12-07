@@ -4,12 +4,13 @@ import uuid from 'react-uuid';
 import dummy from '../../dummyApi/dummy';
 
 const Form = () => (
-    <>
-      <CFormSelect size="lg" className="mb-3" aria-label="Large select example">
+  <>
+    <CFormSelect size="lg" className="mb-3" aria-label="Large select example">
       <option>Select and reserve a bike</option>
       {
       dummy.map((bike, index) => (
         <option value={index} key={uuid()}>
+          react-elastic-carousel@`&quot;`^0.11.5`&quot;`
 
           {bike.name}
 
@@ -18,7 +19,7 @@ const Form = () => (
     }
     </CFormSelect>
     <CFormSelect size="sm" className="mb-3" aria-label="Small select example">
-    <option>Select a User/Owner</option>
+      <option>Select a User/Owner</option>
       <option value="1">One</option>
       <option value="2">Two</option>
       <option value="3">Three</option>
