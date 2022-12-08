@@ -17,3 +17,14 @@ export const addReservations = createAsyncThunk(FETCH_RESERVATION, async () => {
   }));
   return data;
 });
+
+export const reservationSlice = createSlice({
+  name: 'reservations',
+  initialState: [],
+  reducers: {},
+  extraReducers: {
+    [addReservations.fulfilled]: (state, action) => action.payload,
+  },
+});
+
+export default reservationSlice.reducer;
