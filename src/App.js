@@ -12,12 +12,6 @@ import axios from "axios";
 import Home from "./component/Home";
 
 function App() {
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch(loadBikes());
-  }, []);
-
   const [user, setUser] = useState({
     loggedInStatus: "NOT_LOGGED_IN",
     user: {},

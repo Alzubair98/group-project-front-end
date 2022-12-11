@@ -1,9 +1,17 @@
-import React from "react";
 import "./mainpage.css";
 import { useSelector } from "react-redux";
+import React, { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { loadBikes } from "../../Redux/bikes/bike";
 
 function Mainpage() {
   const bikes = useSelector((state) => state.storeSlice);
+
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(loadBikes());
+  }, []);
 
   return (
     <div className="mainpage">
