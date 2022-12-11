@@ -3,13 +3,15 @@ import axios from "axios";
 
 function Reservation(props) {
   const { id } = props;
-  const reserv_id = id.id;
 
-  const [data, setData] = useState({});
+  const [data, setData] = useState({
+    user: { username: "empty" },
+    bike: { name: "empty", image: "empty" },
+  });
 
   const get_user_bike = () => {
     axios
-      .get("http://localhost:3001/reservations/" + reserv_id)
+      .get("http://localhost:3001/reservations/" + id)
       .then((response) => {
         setData(response.data);
       })
@@ -21,6 +23,8 @@ function Reservation(props) {
   useEffect(() => {
     get_user_bike();
   }, []);
+  console.log(data);
+  console.log(id);
 
   return (
     <div>

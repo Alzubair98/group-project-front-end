@@ -28,7 +28,7 @@ function Main_reservation(props) {
             <p>bike id: {reserv.bike_id}</p>
             <p>reserv id: {reserv.id}</p>
           </div>
-          <Reservation id={reserv} />
+          <Reservation id={reserv.id} />
         </div>
       ))}
     </div>
