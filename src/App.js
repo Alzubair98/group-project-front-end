@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Sidebar from "./component/sidebar";
 import About from "./pages/about";
 import Dashboard from "./pages/dashboard";
-import Reservation from "./pages/reservation";
+import Main_reservation from "./pages/main_reservation";
 import Review from "./pages/review";
 import axios from "axios";
 import Home from "./component/Home";
@@ -65,7 +65,10 @@ function App() {
       <Sidebar>
         <Routes>
           <Route path="/" element={<Dashboard />} />
-          <Route path="/reserve" element={<Reservation data={user.user} />} />
+          <Route
+            path="/reserve"
+            element={<Main_reservation data={user.user} />}
+          />
           <Route path="/review" element={<Review />} />
           <Route
             path="/about"

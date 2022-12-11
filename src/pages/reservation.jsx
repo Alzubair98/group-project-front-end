@@ -1,37 +1,32 @@
-import React, { useEffect } from "react";
-import { useSelector } from "react-redux";
-import { loadReservations } from "../Redux/reservations/reservation";
-import { loadBikes } from "../Redux/bikes/bike";
-import { useDispatch } from "react-redux";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 
 function Reservation(props) {
-  const { data } = props;
-  const dispatch = useDispatch();
+  const { id } = props;
+  const reserv_id = id.id;
+
+  const [data, setData] = useState({});
+
+  const get_user_bike = () => {
+    axios
+      .get("http://localhost:3001/reservations/" + reserv_id)
+      .then((response) => {
+        setData(response.data);
+      })
+      .catch((error) => {
+        console.log("1 reservation error", error);
+      });
+  };
 
   useEffect(() => {
-    dispatch(loadReservations());
+    get_user_bike();
   }, []);
 
-  const reservations = useSelector((state) => state.reservationStore);
-  const bikes = useSelector((state) => state.storeSlice);
-
-  console.log(bikes);
-
-  const user_reservation = reservations.filter(
-    (item) => item.user_id === data.id
-  );
-
   return (
-    <div className="mainpage">
-      {user_reservation.map((bike, index) => (
-        <div key={index} className="cardContainer">
-          <div className="content">
-            <h3>{bike.user_id}</h3>
-            <p>{bike.location}</p>
-            <p>{bike.bike_id}</p>
-          </div>
-        </div>
-      ))}
+    <div>
+      <h1>user : {data.user.username}</h1>
+      <h1>bike : {data.bike.name}</h1>
+      <img src={data.bike.image} alt="bike img" />
     </div>
   );
 }
