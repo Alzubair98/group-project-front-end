@@ -11,7 +11,7 @@ export const loadReservations = createAsyncThunk(LOADING, async () => {
   const data = res.map((reservation) => ({
     id: reservation.id,
     user_id: reservation.user_id,
-    locations: reservation.locations,
+    location: reservation.location,
     bike_id: reservation.bike_id,
   }));
   return data;
