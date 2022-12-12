@@ -6,11 +6,12 @@
 
 .container-a {
   display: flex;
+  width: 100%;
 }
 
 main {
-  width: 100%;
-  padding: 20px;
+  width: 90%;
+  padding: 0 5rem;
 }
 
 .sidebar {
@@ -19,6 +20,9 @@ main {
   height: 100vh;
   width: 200px;
   transition: all 0.5s;
+  top: 0;
+  left: 0;  
+  bottom: 0;
 }
 
 .top_section {
@@ -59,4 +63,16 @@ main {
 .icon,
 .link_text {
   font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    width: 100%;
+    padding: 0 0.5rem;
+  }
+
+  .container-a {
+    display: block !important;
+    background-color: orange;
+  }
 }
