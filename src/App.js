@@ -1,44 +1,44 @@
-import React, { useEffect, useState } from "react";
-import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import axios from "axios";
-import Sidebar from "./component/sidebar";
-import About from "./pages/about";
-import Dashboard from "./pages/dashboard";
-import MainReservation from "./pages/main_reservation";
-import Review from "./pages/review";
-import Home from "./component/Home";
+import React, { useEffect, useState } from 'react';
+import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import axios from 'axios';
+import Sidebar from './component/sidebar';
+import About from './pages/about';
+import Dashboard from './pages/dashboard';
+import MainReservation from './pages/main_reservation';
+import Review from './pages/review';
+import Home from './component/Home';
 
 function App() {
   const [user, setUser] = useState({
-    loggedInStatus: "NOT_LOGGED_IN",
+    loggedInStatus: 'NOT_LOGGED_IN',
     user: {},
   });
 
   const checkLoginStatus = () => {
     axios
-      .get("http://localhost:3001/logged_in", { withCredentials: true })
+      .get('http://localhost:3001/logged_in', { withCredentials: true })
       .then((response) => {
         if (
-          response.data.logged_in &&
-          user.loggedInStatus === "NOT_LOGGED_IN"
+          response.data.logged_in
+          && user.loggedInStatus === 'NOT_LOGGED_IN'
         ) {
           setUser({
-            loggedInStatus: "LOGGED_IN",
+            loggedInStatus: 'LOGGED_IN',
             user: response.data.user,
           });
         } else if (
-          !response.data.logged_in &&
-          user.loggedInStatus === "LOGGED_IN"
+          !response.data.logged_in
+          && user.loggedInStatus === 'LOGGED_IN'
         ) {
           setUser({
-            loggedInStatus: "NOT_LOGGED_IN",
+            loggedInStatus: 'NOT_LOGGED_IN',
             user: {},
           });
         }
       })
       .catch((error) => {
-        console.log("check log in error", error);
+        console.log('check log in error', error);
       });
   };
 
@@ -48,14 +48,14 @@ function App() {
 
   const handleLogout = () => {
     setUser({
-      loggedInStatus: "NOT_LOGGED_IN",
+      loggedInStatus: 'NOT_LOGGED_IN',
       user: {},
     });
   };
 
   const handleLogin = (data) => {
     setUser({
-      loggedInStatus: "LOGGED_IN",
+      loggedInStatus: 'LOGGED_IN',
       user: data.user,
     });
   };
@@ -72,13 +72,13 @@ function App() {
           <Route path="/review" element={<Review />} />
           <Route
             path="/about"
-            element={
+            element={(
               <About
                 data={user.user}
                 handleLogin={handleLogin}
                 loggedInStatus={user.loggedInStatus}
               />
-            }
+            )}
           />
           <Route path="/home" element={<Home handleLogout={handleLogout} />} />
         </Routes>

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import React from 'react';
-=======
 import React from "react";
->>>>>>> auth-test
 
 function About(props) {
   return (

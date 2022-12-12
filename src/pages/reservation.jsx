@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-/* eslint-disable import/extensions */
-import React from 'react';
-import Form from '../component/reservations/reservationsform';
-=======
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
@@ -30,18 +25,12 @@ function Reservation(props) {
   }, []);
   console.log(data);
   console.log(id);
->>>>>>> auth-test
 
   return (
     <div>
-<<<<<<< HEAD
-      <h1>Reservation</h1>
-      <Form />
-=======
       <h1>user : {data.user.username}</h1>
       <h1>bike : {data.bike.name}</h1>
       <img src={data.bike.image} alt="bike img" />
->>>>>>> auth-test
     </div>
   );
 }

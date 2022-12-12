@@ -1,13 +1,21 @@
-import React, { useState } from 'react';
-import { FaBars } from 'react-icons/fa';
+/* eslint-disable */
+import React, { useState } from "react";
+import { FaBars } from "react-icons/fa";
 import {
-  AiFillTwitterCircle, AiFillFacebook, AiOutlineAmazon, AiOutlineInstagram,
-  AiOutlineHome, AiFillCarryOut, AiOutlineGooglePlus, AiOutlineSolution, AiTwotoneAlert,
+  AiFillTwitterCircle,
+  AiFillFacebook,
+  AiOutlineAmazon,
+  AiOutlineInstagram,
+  AiOutlineHome,
+  AiFillCarryOut,
+  AiOutlineGooglePlus,
+  AiOutlineSolution,
+  AiTwotoneAlert,
   AiTwotoneThunderbolt,
-} from 'react-icons/ai';
-import { NavLink } from 'react-router-dom';
-import uuid from 'react-uuid';
-import './sidebarStyle.css';
+} from "react-icons/ai";
+import { NavLink } from "react-router-dom";
+import uuid from "react-uuid";
+import "./sidebarStyle.css";
 
 // eslint-disable-next-line react/prop-types
 function Sidebar({ children }) {
@@ -15,29 +23,29 @@ function Sidebar({ children }) {
   const toggle = () => setIsOpen(!isOpen);
   const menuItems = [
     {
-      path: '/',
-      name: 'Dashboard',
+      path: "/",
+      name: "Dashboard",
       icon: <AiOutlineHome />,
     },
     {
-      path: '/model',
-      name: 'Model',
+      path: "/model",
+      name: "Model",
       icon: <AiTwotoneThunderbolt />,
     },
     {
-      path: '/reserve',
-      name: 'Reservation',
+      path: "/reserve",
+      name: "Reservation",
       icon: <AiFillCarryOut />,
     },
     {
-      path: '/review',
-      name: 'Review',
+      path: "/review",
+      name: "Review",
       icon: <AiOutlineSolution />,
     },
 
     {
-      path: '/about',
-      name: 'About',
+      path: "/about",
+      name: "About",
       icon: <AiTwotoneAlert />,
     },
   ];
@@ -51,14 +59,18 @@ function Sidebar({ children }) {
           </div>
         </div>
         <div className="middle_section">
-          {
-                   menuItems.map((item, index) => (
-                     <NavLink to={item.path} key={uuid()} id={index} className="link" activeclassname="active">
-                       <div className="icon">{item.icon}</div>
-                       <div className="link_text">{item.name}</div>
-                     </NavLink>
-                   ))
-        }
+          {menuItems.map((item, index) => (
+            <NavLink
+              to={item.path}
+              key={uuid()}
+              id={index}
+              className="link"
+              activeclassname="active"
+            >
+              <div className="icon">{item.icon}</div>
+              <div className="link_text">{item.name}</div>
+            </NavLink>
+          ))}
         </div>
         <div className="bottom_section">
           <div className="icon">
