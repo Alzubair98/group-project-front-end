@@ -70,16 +70,7 @@ function App() {
             element={<Main_reservation data={user.user} />}
           />
           <Route path="/review" element={<Review />} />
-          <Route
-            path="/about"
-            element={
-              <About
-                data={user.user}
-                handleLogin={handleLogin}
-                loggedInStatus={user.loggedInStatus}
-              />
-            }
-          />
+          <Route path="/about" element={<About />} />
           <Route path="/home" element={<Home handleLogout={handleLogout} />} />
         </Routes>
       </Sidebar>
