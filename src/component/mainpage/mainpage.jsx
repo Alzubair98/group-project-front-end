@@ -1,64 +1,58 @@
-import React from 'react';
-import uuid from 'react-uuid';
+/* eslint-disable react-hooks/exhaustive-deps */
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
+import { fetchBikes } from '../../Redux/bike/bike';
 import './mainpage.css';
-import {
-  CCard, CCardBody, CCardFooter,
-  CCardImage, CCardTitle, CCardText, CCol, CRow,
-} from '@coreui/react';
-import dummy from '../../dummyApi/dummy';
 
-function Mainpage() {
+function Mainpage(props) {
+  const dispatch = useDispatch();
+  const bikes = useSelector((state) => state.bike.bikes);
+  const { handleBikeDetails } = props;
+  useEffect(() => {
+    dispatch(fetchBikes());
+  }, []);
+
   return (
     <>
-      <h1 className="text-center">Our Services</h1>
+      <h1 className="mainheader">Bikers friend</h1>
       <div className="mainpage">
         {
-        dummy.map((item, index) => (
-          <div key={uuid()} id={index} className="cardContainer">
-            {/* <div className="imgcard">
-              <img
-                src={item.image}
-                alt="img"
-                className="realimg"
-              />
-            </div>
-            <div className="content">
-              <h3>{item.name}</h3>
-              <p>{item.description}</p>
-              <div className="pricebtn">
-                <p>
-                  $
-                  {item.price}
-                </p>
-                <button type="button">Reserve</button>
-              </div>
-            </div> */
-              <CRow sm={{ cols: 3, gutter: 4 }} md={{ cols: 2 }}>
-                <CCol xs>
-                  <CCard style={{ width: '13rem' }}>
-                    <CCardImage orientation="top" src={item.image} />
-                    <CCardBody>
-                      <CCardTitle>{item.name}</CCardTitle>
-                      <CCardText>
-                        {item.description}
-                      </CCardText>
-                      <CCardText>
-                        {item.price}
-                      </CCardText>
-                    </CCardBody>
-                    <CCardFooter>
-                      <small className="text-medium-emphasis">Last updated 3 mins ago</small>
-                    </CCardFooter>
-                  </CCard>
-                </CCol>
-              </CRow>
-            }
-          </div>
-        ))
-      }
+                  bikes.map((bike) => (
+                    <div className="con-card" key={bike.id}>
+                      <div className="con-image">
+                        <img src={bike.image} alt={bike.name} />
+                        <img className="bg" src="ghana.png" alt="bg" />
+                      </div>
+                      <div className="con-text">
+                        <h3>{bike.name}</h3>
+                      </div>
+                      <div className="con-price">
+                        <span>
+                          $
+                          {bike.price}
+                          0
+                        </span>
+                      </div>
+                      <div className="card-body">
+                        <button className="btn-reserve" type="button">Reserve</button>
+                        <button className="btn-details" type="button" onClick={handleBikeDetails}>
+                          <Link id={bike.id} to={`/bikes/${bike.id}`}>Details</Link>
+                        </button>
+                      </div>
+                    </div>
+
+                  ))
+                }
+
       </div>
     </>
   );
 }
 
 export default Mainpage;
+
+Mainpage.propTypes = {
+  handleBikeDetails: PropTypes.func.isRequired,
+};
