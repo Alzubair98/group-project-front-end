@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { loadReservations } from "../Redux/reservations/reservation";

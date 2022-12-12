@@ -1,9 +1,10 @@
-import axios from 'axios';
-import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
+/* eslint-disable */
+import axios from "axios";
+import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
-const LOADING = 'LOADING';
+const LOADING = "LOADING";
 
-const url = 'http://localhost:3001/reservations';
+const url = "http://localhost:3001/reservations";
 
 export const loadReservations = createAsyncThunk(LOADING, async () => {
   const response = await axios.get(url);
@@ -18,7 +19,7 @@ export const loadReservations = createAsyncThunk(LOADING, async () => {
 });
 
 export const storeSlice = createSlice({
-  name: 'bikers',
+  name: "bikers",
   initialState: [],
   reducers: {},
   extraReducers: {

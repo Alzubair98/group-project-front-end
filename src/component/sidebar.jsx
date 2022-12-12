@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useState } from "react";
 import { FaAnchor, FaBars, FaTh } from "react-icons/fa";
 import { NavLink } from "react-router-dom";

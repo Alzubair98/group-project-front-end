@@ -1,20 +1,21 @@
-import React from 'react';
-import axios from 'axios';
-import propTypes from 'prop-types';
-import Login from './auth/Login';
-import Registration from './auth/Registration';
-import './home.css';
+/* eslint-disable */
+import React from "react";
+import axios from "axios";
+import propTypes from "prop-types";
+import Login from "./auth/Login";
+import Registration from "./auth/Registration";
+import "./home.css";
 
 function Home(props) {
   const { handleLogout } = props;
   const handleLogoutClick = () => {
     axios
-      .delete('http://localhost:3001/logout', { withCredentials: true })
+      .delete("http://localhost:3001/logout", { withCredentials: true })
       .then(() => {
         handleLogout();
       })
       .catch((error) => {
-        console.log('logout error', error);
+        console.log("logout error", error);
       });
     handleLogout();
   };
