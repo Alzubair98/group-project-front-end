@@ -4,7 +4,7 @@ import { loadReservations } from "../Redux/reservations/reservation";
 import { useDispatch } from "react-redux";
 import Reservation from "./reservation";
 
-function Main_reservation(props) {
+function MainReservation(props) {
   const { data } = props;
 
   const dispatch = useDispatch();
@@ -35,4 +35,4 @@ function Main_reservation(props) {
   );
 }
 
-export default Main_reservation;
+export default MainReservation;

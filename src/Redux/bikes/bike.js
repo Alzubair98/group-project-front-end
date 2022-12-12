@@ -1,9 +1,9 @@
-import axios from "axios";
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import axios from 'axios';
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
-const LOADING = "LOADING";
+const LOADING = 'LOADING';
 
-const url = "http://localhost:3001/bikes";
+const url = 'http://localhost:3001/bikes';
 
 export const loadBikes = createAsyncThunk(LOADING, async () => {
   const response = await axios.get(url);
@@ -19,7 +19,7 @@ export const loadBikes = createAsyncThunk(LOADING, async () => {
 });
 
 export const storeSlice = createSlice({
-  name: "bikers",
+  name: 'bikers',
   initialState: [],
   reducers: {},
   extraReducers: {
