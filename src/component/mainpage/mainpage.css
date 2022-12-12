@@ -1,0 +1,12 @@
+.mainpage {
+  display: flex;
+  background-color: pink;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 80%;
+  width: 100%;
+}
