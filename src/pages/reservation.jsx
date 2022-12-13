@@ -24,8 +24,6 @@ function Reservation(props) {
   useEffect(() => {
     get_user_bike();
   }, []);
-  console.log(data);
-  console.log(id);
 
   return (
     <div>
