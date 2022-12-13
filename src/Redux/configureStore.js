@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { configureStore } from "@reduxjs/toolkit";
 import bikeStore from "./bikes/bike";
 import reservationStore from "./reservations/reservation";

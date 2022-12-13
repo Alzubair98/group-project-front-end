@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
@@ -28,16 +29,12 @@ function Reservation(props) {
 
   return (
     <div className="cardContainerr">
-      <h1 className="userlogin1">
-        {data.user.username}'s reservation details{" "}
-      </h1>
+      <h1 className="userlogin1">{data.user.username}'s reservation </h1>
       <div className="img">
         <img src={data.bike.image} alt="bike img" />
       </div>
       <div className="bikeuser">
-        <h1 className="userlogin">
-          {data.user.username}'s reservation details{" "}
-        </h1>
+        <h1 className="userlogin">{data.user.username}'s reservation </h1>
         <h1 className="bikename"> {data.bike.name}</h1>
       </div>
     </div>

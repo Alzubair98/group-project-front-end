@@ -1,3 +1,4 @@
+/* eslint-disable */
 import "./mainpage.css";
 import { useSelector } from "react-redux";
 import React, { useEffect } from "react";

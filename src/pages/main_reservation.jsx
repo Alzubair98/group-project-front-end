@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { loadReservations } from "../Redux/reservations/reservation";
@@ -27,7 +28,7 @@ function MainReservation(props) {
             <Reservation id={reserv.id} />
           </div>
           <div className="content">
-            <h3 className="reserve">Location : {reserv.location}</h3>
+            <h2 className="reserve">Location : {reserv.location}</h2>
           </div>
         </div>
       ))}
