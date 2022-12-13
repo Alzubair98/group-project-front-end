@@ -1,6 +1,6 @@
-import React from 'react'
-import './mainpage.css'
-import dummy from '../../dummyApi/dummy'
+import React from 'react';
+import './mainpage.css';
+import dummy from '../../dummyApi/dummy';
 
 function Mainpage() {
   return (
