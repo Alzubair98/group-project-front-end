@@ -1,1 +1,103 @@
- 
+*,  :after, :before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    width: 328px;
+}
+.cardContainer {
+    display: block;
+    width: 100%;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding-bottom: 1rem;
+}
+
+.container {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.content {
+   width: 90%;
+   align-content: flex-end;
+   margin-left: auto;
+   margin-right: auto;
+   border-left-width: 0.2rem;
+   border-left-color: lightblue;
+   background-color: #eee;
+}
+
+img {
+    width: 100%;
+    border-radius: 4rem;
+    max-height: 100%;
+}
+
+.userlogin1 {
+    text-align: right;
+    background-color: #046a38;
+    border-color: #046a38;
+    color: #fff;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    height: 1.9rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    padding-top: 0.1rem;
+    padding-right: 1rem;
+}
+.bikeuser {
+    width: 100%;
+    align-content:flex-end;
+}
+
+.bikename {
+    text-align: end;
+    font-size: 25px;
+    color: #333;
+    font-family: "Roboto Condensed",sans-serif;
+}
+
+.user_id, .bike_id {
+    background-color:  #ddd;
+    height: 1.9rem;
+    font-size: large;
+    text-align: center;
+    padding-top: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
+.reserve, .reserv_id {
+    font-size: large;
+    height: 0.1rem;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    margin-top: -0.1rem;
+    background-color:  #eee;
+
+}
+
+.userlogin {
+    display:none;
+}
+
+
+@media screen and (min-width: 768px) {
+body {
+    background-color: white;
+    width: 1200px;
+}
+
+
+
+}
