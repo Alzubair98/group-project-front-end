@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import Carousel from 'react-elastic-carousel';
 import uuid from 'react-uuid';
