@@ -5,13 +5,13 @@
 }
 
 body {
-    background-color: white;
+    
     width: 328px;
 }
 .cardContainer {
     display: block;
     width: 100%;
-    background-color: white;
+    
     border-radius: 0.5rem;
     margin-bottom: 2rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -30,7 +30,7 @@ body {
    margin-right: auto;
    border-left-width: 0.2rem;
    border-left-color: lightblue;
-   background-color: #eee;
+   
 }
 
 img {
@@ -43,7 +43,6 @@ img {
     text-align: right;
     background-color: #046a38;
     border-color: #046a38;
-    color: #fff;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     height: 1.9rem;
@@ -65,7 +64,7 @@ img {
 }
 
 .user_id, .bike_id {
-    background-color:  #ddd;
+    
     height: 1.9rem;
     font-size: large;
     text-align: center;
@@ -83,13 +82,11 @@ img {
     padding-right: 1rem;
     padding-bottom: 1rem;
     margin-top: -0.1rem;
-    background-color:  #eee;
+    
 
 }
 
-.userlogin {
-    display:none;
-}
+
 
 
 @media screen and (min-width: 768px) {
