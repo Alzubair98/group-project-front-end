@@ -1,3 +1,7 @@
 .home-div {
   display: flex;
 }
+
+.link{
+  text-decoration: none;
+}

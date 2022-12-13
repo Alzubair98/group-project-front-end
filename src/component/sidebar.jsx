@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { FaAnchor, FaBars, FaTh } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
+import "./home.css";
 
 function Sidebar({ children }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,7 +36,7 @@ function Sidebar({ children }) {
     },
     {
       path: "/addreserve",
-      name: "AddReserve",
+      name: "Add Bike",
       icon: <FaAnchor />,
     },
   ];
