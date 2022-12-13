@@ -33,6 +33,11 @@ function Sidebar({ children }) {
       name: "Home",
       icon: <FaAnchor />,
     },
+    {
+      path: "/addreserve",
+      name: "AddReserve",
+      icon: <FaAnchor />,
+    },
   ];
   return (
     <div className="container-a">

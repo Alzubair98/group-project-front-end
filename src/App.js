@@ -9,6 +9,7 @@ import Dashboard from "./pages/dashboard";
 import MainReservation from "./pages/main_reservation";
 import Review from "./pages/review";
 import Home from "./component/Home";
+import AddReservation from "./pages/add_reservations";
 
 function App() {
   const [user, setUser] = useState({
@@ -82,6 +83,10 @@ function App() {
             }
           />
           <Route path="/home" element={<Home handleLogout={handleLogout} />} />
+          <Route
+            path="/addreserve"
+            element={<AddReservation data={user.user} />}
+          />
         </Routes>
       </Sidebar>
     </BrowserRouter>
