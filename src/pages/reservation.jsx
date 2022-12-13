@@ -28,10 +28,15 @@ function Reservation(props) {
   console.log(id);
 
   return (
-    <div>
-      <h1>user : {data.user.username}</h1>
-      <h1>bike : {data.bike.name}</h1>
-      <img src={data.bike.image} alt="bike img" />
+    <div className="cardContainerr">
+      <h1 className="userlogin1">{data.user.username}'s reservation </h1>
+      <div className="img">
+        <img src={data.bike.image} alt="bike img" />
+      </div>
+      <div className="bikeuser">
+        <h1 className="userlogin">{data.user.username}'s reservation </h1>
+        <h1 className="bikename"> {data.bike.name}</h1>
+      </div>
     </div>
   );
 }
