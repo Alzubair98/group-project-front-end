@@ -3,9 +3,9 @@ import { useSelector } from "react-redux";
 import { loadReservations } from "../Redux/reservations/reservation";
 import { useDispatch } from "react-redux";
 import Reservation from "./reservation";
-import './main_reservation.css'
+import "./main_reservation.css";
 
-function Main_reservation(props) {
+function MainReservation(props) {
   const { data } = props;
 
   const dispatch = useDispatch();
@@ -23,14 +23,11 @@ function Main_reservation(props) {
     <div>
       {user_reservation.map((reserv, index) => (
         <div key={index} className="cardContainer">
-        <div className="container">
-          <Reservation id={reserv.id} />
-        </div>
+          <div className="container">
+            <Reservation id={reserv.id} />
+          </div>
           <div className="content">
-            <h3  className="user_id">User id : {reserv.user_id}</h3>
-            <p className="reserve">Location : {reserv.location}</p>
-            <p className="bike_id">Bike id: {reserv.bike_id}</p>
-            {/* <p className="reserv_id">Reserv id: {reserv.id}</p> */}
+            <h3 className="reserve">Location : {reserv.location}</h3>
           </div>
         </div>
       ))}
@@ -38,4 +35,4 @@ function Main_reservation(props) {
   );
 }
 
-export default Main_reservation;
+export default MainReservation;
