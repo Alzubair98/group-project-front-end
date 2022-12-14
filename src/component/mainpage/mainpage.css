@@ -10,6 +10,9 @@ a:hover {
 
 .mainpage {
   width: 100%;
+  margin: 2rem 1rem 0rem 4rem;
+  background-color: cornsilk;
+  padding: 2rem;
 }
 
 #con-card {
