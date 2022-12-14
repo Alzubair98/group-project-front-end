@@ -1,7 +1,21 @@
 /* eslint-disable */
 import React, { useState } from "react";
-import { FaAnchor, FaBars, FaTh } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
+import {
+  AiFillTwitterCircle,
+  AiFillFacebook,
+  AiOutlineAmazon,
+  AiOutlineInstagram,
+  AiOutlineHome,
+  AiFillCarryOut,
+  AiOutlineGooglePlus,
+  AiOutlineSolution,
+  AiTwotoneAlert,
+  AiTwotoneThunderbolt,
+} from "react-icons/ai";
 import { NavLink } from "react-router-dom";
+import { v4 as uuidv4 } from "uuid";
+import "./sidebarStyle.css";
 
 function Sidebar({ children }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,33 +50,38 @@ function Sidebar({ children }) {
   ];
   return (
     <div className="container-a">
-      <div style={{ width: isOpen ? "200px" : "50px" }} className="sidebar">
+      <div className="sidebar">
         <div className="top_section">
-          <h1 style={{ display: isOpen ? "block" : "none" }} className="logo">
-            Logo
-          </h1>
-          <div style={{ marginLeft: isOpen ? "50px" : "0px" }} className="bars">
+          <h1 className="logo">Bikers 🚲</h1>
+          <div className="bars">
             <FaBars onClick={toggle} />
           </div>
         </div>
-        {menuItems.map((item, index) => (
-          <NavLink
-            to={item.path}
-            key={index}
-            className="link"
-            activeclassname="active"
-          >
-            <div className="icon">{item.icon}</div>
-            <div
-              style={{ display: isOpen ? "block" : "none" }}
-              className="link_text"
+        <div className="middle_section">
+          {menuItems.map((item, index) => (
+            <NavLink
+              to={item.path}
+              key={uuidv4()}
+              id={index}
+              className="link"
+              activeclassname="active"
             >
-              {item.name}
-            </div>
-          </NavLink>
-        ))}
+              <div className="icon">{item.icon}</div>
+              <div className="link_text">{item.name}</div>
+            </NavLink>
+          ))}
+        </div>
+        <div className="bottom_section">
+          <div className="icon">
+            <AiFillTwitterCircle />
+            <AiFillFacebook />
+            <AiOutlineAmazon />
+            <AiOutlineInstagram />
+            <AiOutlineGooglePlus />
+          </div>
+        </div>
       </div>
-      <main>{children}</main>
+      <main className="mainPagess">{children}</main>
     </div>
   );
 }
