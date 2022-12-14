@@ -7,13 +7,21 @@ export default class Rigstration extends Component {
   constructor(props) {
     super(props);
 
-    this.state = {
-      user: "",
-      bike: "",
-      location: "",
-      reservationsErrors: "",
-    };
-    console.log(props.data.username);
+    if (Object.keys(this.props.data).length !== 0) {
+      this.state = {
+        user: this.props.data.username,
+        bike: "",
+        location: "",
+        reservationsErrors: "",
+      };
+    } else {
+      this.state = {
+        user: "",
+        bike: "",
+        location: "",
+        reservationsErrors: "",
+      };
+    }
 
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleChange = this.handleChange.bind(this);
