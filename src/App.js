@@ -10,6 +10,7 @@ import Review from "./pages/review";
 import axios from "axios";
 import Home from "./component/Home";
 import BikeDetails from "./component/bike/bikeDetails";
+import AddReservation from "./pages/addreservatoin";
 
 function App() {
   const [user, setUser] = useState({
@@ -86,6 +87,10 @@ function App() {
             element={<MainReservation data={user.user} />}
           />
           <Route path="/review" element={<Review />} />
+          <Route
+            path="/addreserve"
+            element={<AddReservation data={user.user} />}
+          />
           <Route
             path="/about"
             element={
