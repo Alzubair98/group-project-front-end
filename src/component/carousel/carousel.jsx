@@ -8,7 +8,7 @@ function Caarousel() {
   return (
     <>
       <h1>Latest Model</h1>
-      <Carousel itemsToShow={4}>
+      <Carousel itemsToShow={3}>
         {dummy.map((item, index) => (
           <>
             <item className="item" id={index} key={uuid()}>

@@ -12,6 +12,13 @@ import Home from "./component/Home";
 import AddReservation from "./pages/add_reservations";
 
 function App() {
+  const [Id, setBikeId] = useState(7);
+
+  const handleBikeDetails = (e) => {
+    const bikeBtnId = e.target;
+    setBikeId(Number(bikeBtnId.id));
+  };
+
   const [user, setUser] = useState({
     loggedInStatus: "NOT_LOGGED_IN",
     user: {},
@@ -66,11 +73,13 @@ function App() {
     <BrowserRouter>
       <Sidebar>
         <Routes>
-          <Route path="/" element={<Dashboard />} />
+        <Route path="/" element={<Dashboard handleBikeDetails={handleBikeDetails} />} />
           <Route
             path="/reserve"
             element={<MainReservation data={user.user} />}
           />
+          <Route path="/bikes/:id" element={<BikeDetails bikeDetailId={Id} />} />
+          <Route path="/model" element={<Models />} />
           <Route path="/review" element={<Review />} />
           <Route
             path="/about"

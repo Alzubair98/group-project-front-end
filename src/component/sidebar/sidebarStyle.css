@@ -1,0 +1,64 @@
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    background-color: red;
+    width: 4rem;
+    position: fixed;
+    height: 100%;
+  }
+
+  .bars {
+    display: block !important;
+    margin-left: -0.1rem;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .link_text {
+    display: none;
+  }
+
+  .icon {
+    display: flex;
+    gap: 2px;
+    width: 15rem;
+  }
+
+  .mainPagess {
+    position: relative;
+    margin-left: 8500px;
+    background-color: brown;
+  }
+
+  .bottom_section {
+    display: none;
+  }
+}
+
+.logo {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: fixed;
+}
+
+.bars {
+  display: none;
+}
+
+.icon {
+  display: flex;
+  gap: 15px;
+}
+
+.mainPagess {
+  position: relative;
+  margin-left: 200px;
+  padding: 0rem;
+}
