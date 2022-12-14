@@ -1,30 +1,27 @@
-/* eslint-disable */
-import axios from "axios";
+/* eslint-disable no-param-reassign */
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
-const LOADING = "LOADING";
+const initialState = {
+  bikes: [],
+  status: "idle",
+};
 
-const url = "http://localhost:3001/bikes";
-
-export const loadBikes = createAsyncThunk(LOADING, async () => {
-  const response = await axios.get(url);
-  const res = response.data;
-  const data = res.map((bike) => ({
-    id: bike.id,
-    name: bike.name,
-    description: bike.description,
-    img: bike.image,
-    price: bike.price,
-  }));
+export const fetchBikes = createAsyncThunk("bike/fetchBikes", async () => {
+  const response = await fetch("http://127.0.0.1:3001/bikes");
+  const data = await response.json();
   return data;
 });
 
-export const storeSlice = createSlice({
-  name: "bikers",
-  initialState: [],
+const bikeSlice = createSlice({
+  name: "bike",
+  initialState,
   reducers: {},
-  extraReducers: {
-    [loadBikes.fulfilled]: (state, action) => action.payload,
+  extraReducers: (builder) => {
+    builder.addCase(fetchBikes.fulfilled, (state, action) => {
+      state.status = "succeeded";
+      state.bikes = action.payload;
+    });
   },
 });
-export default storeSlice.reducer;
+
+export default bikeSlice.reducer;

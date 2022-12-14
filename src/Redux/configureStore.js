@@ -1,11 +1,11 @@
 /* eslint-disable */
 import { configureStore } from "@reduxjs/toolkit";
-import bikeStore from "./bikes/bike";
+import bikeSlice from "./bikes/bike";
 import reservationStore from "./reservations/reservation";
 
 const store = configureStore({
   reducer: {
-    storeSlice: bikeStore,
+    bike: bikeSlice,
     reservationStore: reservationStore,
   },
 });
