@@ -1,4 +1,4 @@
-{
+ {
   "name": "group-project-front-end",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +18,7 @@
     "react-icons": "^4.7.1",
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.4.4",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-slick": "^0.29.0",
     "react-uuid": "^2.0.0",
     "slick-carousel": "^1.8.1",
