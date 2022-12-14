@@ -40,7 +40,7 @@ function Reservation(props) {
   useEffect(() => {
     get_user_bike();
   }, []);
-
+ 
   return (
     <div className="cardContainerr">
       <h1 className="userlogin1">{data.user.username}'s reservation </h1>

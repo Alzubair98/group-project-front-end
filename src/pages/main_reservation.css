@@ -23,7 +23,7 @@ body {
     margin-top: 1rem;
 }
 
-.content {
+.content { 
    width: 90%;
    align-content: flex-end;
    margin-left: auto;
@@ -31,6 +31,7 @@ body {
    border-left-width: 0.2rem;
    border-left-color: lightblue;
    background-color: #eee;
+   padding-bottom: 2rem;
 }
 
 img {
@@ -59,7 +60,7 @@ img {
 
 .bikename {
     text-align: end;
-    font-size: 25px;
+    font-size: 29px;
     color: #333;
     font-family: "Roboto Condensed",sans-serif;
 }
@@ -82,15 +83,22 @@ img {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 1rem;
+    padding-top: 1rem;
     margin-top: -0.1rem;
     background-color:  #eee;
-
 }
 
 .userlogin {
     display:none;
 }
 
+.mainPagess {
+    display: block;
+    width: 80%;
+    background-color: white;
+    padding-left: 0;
+    margin-left: 5rem;
+}
 
 @media screen and (min-width: 768px) {
 body {
@@ -137,14 +145,14 @@ body {
 
 .img {
     width: 600px;
-    margin-left: 12rem;
+    margin-left: 10rem;
     height: 500px;
 }
 .bikeuser {
     width: 14rem;
     align-content:flex-end;
     background-color: white;
-    margin-left: 40rem;
+    margin-left: 38rem;
 }
 
 .userlogin {
@@ -187,8 +195,23 @@ body {
     font-size: large;
     text-align: end;
     padding-left: 1rem;
-    margin-left: 1rem;
+    margin-left: 5.6rem;
     background-color: white;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #eee;
+    margin-top: 0.6rem;
+
+
+    height: 4rem;
+    padding-top: 1.4rem;
 }
 
+.mainPagess {
+    display: block;
+    width: 80%;
+    background-color: white;
+    padding-left: 0;
+    margin-left: 19rem;
+}
 }

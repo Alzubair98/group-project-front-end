@@ -5,7 +5,7 @@ import { loadReservations } from "../Redux/reservations/reservation";
 import { useDispatch } from "react-redux";
 import Reservation from "./reservation";
 import "./main_reservation.css";
-
+ 
 function MainReservation(props) {
   const { data } = props;
 
