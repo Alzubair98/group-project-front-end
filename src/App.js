@@ -9,12 +9,20 @@ import MainReservation from "./pages/main_reservation";
 import Review from "./pages/review";
 import axios from "axios";
 import Home from "./component/Home";
+import BikeDetails from "./component/bike/bikeDetails";
 
 function App() {
   const [user, setUser] = useState({
     loggedInStatus: "NOT_LOGGED_IN",
     user: {},
   });
+
+  const [Id, setBikeId] = useState(7);
+
+  const handleBikeDetails = (e) => {
+    const bikeBtnId = e.target;
+    setBikeId(Number(bikeBtnId.id));
+  };
 
   const checkLoginStatus = () => {
     axios
@@ -65,7 +73,14 @@ function App() {
     <BrowserRouter>
       <Sidebar>
         <Routes>
-          <Route path="/" element={<Dashboard />} />
+          <Route
+            path="/"
+            element={<Dashboard handleBikeDetails={handleBikeDetails} />}
+          />
+          <Route
+            path="/bikes/:id"
+            element={<BikeDetails bikeDetailId={Id} />}
+          />
           <Route
             path="/reserve"
             element={<MainReservation data={user.user} />}
