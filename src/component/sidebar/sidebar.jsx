@@ -21,11 +21,6 @@ function Sidebar({ children }) {
       icon: <AiOutlineHome />,
     },
     {
-      path: '/model',
-      name: 'Model',
-      icon: <AiTwotoneThunderbolt />,
-    },
-    {
       path: '/reserve',
       name: 'Reservation',
       icon: <AiFillCarryOut />,
