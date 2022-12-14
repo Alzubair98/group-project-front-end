@@ -15,7 +15,7 @@ import {
 } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
-import "./sidebarStyle.css";
+import "./sidebar.css";
 
 function Sidebar({ children }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,28 +24,28 @@ function Sidebar({ children }) {
     {
       path: "/",
       name: "Dashboard",
-      icon: <FaTh />,
+      icon: <AiOutlineSolution />,
     },
     {
       path: "/reserve",
       name: "Reservation",
-      icon: <FaTh />,
+      icon: <AiOutlineSolution />,
     },
     {
       path: "/review",
       name: "Review",
-      icon: <FaTh />,
+      icon: <AiOutlineSolution />,
     },
 
     {
       path: "/about",
       name: "About",
-      icon: <FaAnchor />,
+      icon: <AiOutlineSolution />,
     },
     {
       path: "/home",
       name: "Home",
-      icon: <FaAnchor />,
+      icon: <AiOutlineSolution />,
     },
   ];
   return (

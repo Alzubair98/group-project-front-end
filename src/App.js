@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Sidebar from "./component/sidebar";
+import Sidebar from "./component/sidebar/sidebar";
 import About from "./pages/about";
 import Dashboard from "./pages/dashboard";
 import MainReservation from "./pages/main_reservation";
