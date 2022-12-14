@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 function Reservation(props) {
-  const { id } = props;
+  const { id, buttonID } = props;
 
   const [data, setData] = useState({
     user: { username: "empty" },
@@ -21,11 +21,25 @@ function Reservation(props) {
       });
   };
 
+  const delete_reserv = () => {
+    axios
+      .post("http://localhost:3001/destroy", {
+        reservation: { id: buttonID },
+      })
+      .then((response) => {
+        console.log(response);
+      })
+      .catch((error) => {
+        console.log("delete reservation error", error);
+      });
+  };
+  if (!buttonID == 0) {
+    delete_reserv();
+  }
+
   useEffect(() => {
     get_user_bike();
   }, []);
-  console.log(data);
-  console.log(id);
 
   return (
     <div className="cardContainerr">
