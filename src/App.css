@@ -6,6 +6,7 @@
 
 .container-a {
   display: flex;
+  width: 100%;
 }
 
 main {
