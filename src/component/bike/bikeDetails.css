@@ -1,35 +1,124 @@
 .carddetails {
-    padding: 5rem 0rem 3rem 5rem;
+  padding: 5rem 0;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.05);
+  width: 85%;
+  position: relative;
+  margin: 0 0 0 55px;
+  scroll-snap-align: center;
+  transition: all 0.25s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.imagedetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 200px;
+  border-radius: 30px;
+}
+
+.imagedetails img {
+  width: 35rem;
+  z-index: 20;
+  transition: all 0.25s ease;
+}
+
+.imagedetails .bgdetails {
+  position: absolute;
+  z-index: 10;
+  transform: translate(10px, 30px);
+  filter: blur(20px);
+  transition: all 0.25s ease;
+}
+
+.textdetails {
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 3rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+h3 {
+  padding: 0 0;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+}
+
+.pricedetails {
+  width: 100%;
+  text-align: end;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 1.1rem;
+  padding-top: 0;
+  color: gold;
+  align-self: flex-end;
+}
+
+.descriptiondetails {
+  text-align: left;
+}
+
+.bodydetails {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  margin: 0 5rem;
+  padding: 1rem;
+}
+
+.backBtn {
+  width: 5rem;
+  padding: 0.5rem;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .carddetails {
+    padding: 5rem 0 3rem 5rem;
     background-color: #fff;
     border: 2px solid #fff;
     border-radius: 20px;
     box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.05);
-    width: 85%;
     position: relative;
     margin: 5rem 0 0 9rem;
     scroll-snap-align: center;
     transition: all 0.25s ease;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
+    height: 5rem;
   }
-  
+
   .imagedetails {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 20rem;
     height: 200px;
     border-radius: 30px;
   }
-  
+
   .imagedetails img {
-    width: 35rem;
+    width: 20rem;
     z-index: 20;
     transition: all 0.25s ease;
   }
-  
+
   .imagedetails .bgdetails {
     position: absolute;
     z-index: 10;
@@ -37,45 +126,45 @@
     filter: blur(20px);
     transition: all 0.25s ease;
   }
-  
+
   .textdetails {
-    width: 100%;
-    padding: 10px 0;
-    margin-top: 3rem;
+    width: 3rem;
+    padding: 2px 0;
+    margin-top: 0.2rem;
     display: flex;
     align-items: flex-start;
   }
-  
+
   h3 {
     padding: 0 0;
     text-align: center;
     font-weight: bold;
     color: black;
   }
-  
+
   .pricedetails {
     width: 100%;
     text-align: end;
     font-weight: bold;
-    padding: 10px;
-    font-size: 1.1rem;
+    padding: 2px;
+    font-size: 0.3rem;
     padding-top: 0;
     color: gold;
     align-self: flex-end;
   }
-  
+
   .descriptiondetails {
     text-align: left;
   }
-  
+
   .bodydetails {
     display: flex;
     text-align: left;
     flex-direction: column;
-    margin: 0 5rem;
-    padding: 1rem;
+    margin: 0 0.2rem;
+    padding: 0.5rem;
   }
-  
+
   .backBtn {
     width: 5rem;
     padding: 0.5rem;
@@ -84,92 +173,4 @@
     border: none;
     border-radius: 5px;
   }
-  
-  @media only screen and (max-width: 600px) {
-    .carddetails {
-      padding: 1rem 0;
-      background-color: #fff;
-      border: 2px solid #fff;
-      border-radius: 20px;
-      box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.05);
-      position: relative;
-      margin: 0 1px;
-      scroll-snap-align: center;
-      transition: all 0.25s ease;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      height: 5rem;
-    }
-  
-    .imagedetails {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 20rem;
-      height: 200px;
-      border-radius: 30px;
-    }
-  
-    .imagedetails img {
-      width: 20rem;
-      z-index: 20;
-      transition: all 0.25s ease;
-    }
-  
-    .imagedetails .bgdetails {
-      position: absolute;
-      z-index: 10;
-      transform: translate(10px, 30px);
-      filter: blur(20px);
-      transition: all 0.25s ease;
-    }
-  
-    .textdetails {
-      width: 3rem;
-      padding: 2px 0;
-      margin-top: 0.2rem;
-      display: flex;
-      align-items: flex-start;
-    }
-  
-    h3 {
-      padding: 0 0;
-      text-align: center;
-      font-weight: bold;
-      color: black;
-    }
-  
-    .pricedetails {
-      width: 100%;
-      text-align: end;
-      font-weight: bold;
-      padding: 2px;
-      font-size: 0.3rem;
-      padding-top: 0;
-      color: gold;
-      align-self: flex-end;
-    }
-  
-    .descriptiondetails {
-      text-align: left;
-    }
-  
-    .bodydetails {
-      display: flex;
-      text-align: left;
-      flex-direction: column;
-      margin: 0 0.2rem;
-      padding: 0.5rem;
-    }
-  
-    .backBtn {
-      width: 5rem;
-      padding: 0.5rem;
-      color: #fff;
-      background-color: #000;
-      border: none;
-      border-radius: 5px;
-    }
-  }
+}
