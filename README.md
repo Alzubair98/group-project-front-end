@@ -66,3 +66,15 @@
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
+
+### Key Features <a name="key-features"></a>
+
+- **Listing of all Bikes **
+- **Details of each bike**
+- **User authentication**
+- **Visitors can signup to enjoy services**
+- **Users login to access their reservations**
+- **Form avaiability for reservation**
+- **Users can delete reserved bike**
+- **Views are for both mobile and desktop**
+
