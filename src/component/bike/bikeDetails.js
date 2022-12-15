@@ -27,15 +27,15 @@ function BikeDetails(props) {
           </div>
           <div className="bodydetails">
             <div className="pricedetails">
-            {/* eslint-disable-next-line react/jsx-one-expression-per-line */}
-               <span>${bikers.price}0</span>
+              {/* eslint-disable-next-line react/jsx-one-expression-per-line */}
+              <span>${bikers.price}0</span>
             </div>
             <div className="textdetails">
-            {/* eslint-disable-next-line react/jsx-one-expression-per-line */}
+              {/* eslint-disable-next-line react/jsx-one-expression-per-line */}
               <h3> {bikers.name}</h3>
             </div>
             <div className="descriptiondetails">
-            {/* eslint-disable-next-line react/jsx-one-expression-per-line */}
+              {/* eslint-disable-next-line react/jsx-one-expression-per-line */}
               <p> {bikers.description}</p>
             </div>
 
