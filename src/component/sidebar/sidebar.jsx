@@ -46,6 +46,11 @@ function Sidebar({ children }) {
       name: "AddReserve",
       icon: <AiOutlineSolution />,
     },
+    {
+      path: "/deletereserv",
+      name: "Delete Reserv",
+      icon: <AiOutlineSolution />,
+    },
   ];
   return (
     <div className="container-a">
