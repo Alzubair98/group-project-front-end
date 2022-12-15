@@ -1,11 +1,12 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React, { useEffect } from "react";
-import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
-import { fetchBikes } from "../../Redux/bikes/bike";
-import "./bikeDetails.css";
+import React, { useEffect } from 'react';
+import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchBikes } from '../../Redux/bikes/bike';
+import './bikeDetails.css';
 
+// react/jsx-one-expression-per-line
 function BikeDetails(props) {
   const { bikeDetailId } = props;
   const dispatch = useDispatch();
