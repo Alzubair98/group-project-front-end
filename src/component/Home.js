@@ -3,7 +3,7 @@ import React from "react";
 import axios from "axios";
 import Login from "./auth/Login";
 import Registration from "./auth/Registration";
-import "./home.css";
+import "./home.module.css";
 
 function Home(props) {
   const handleLogoutClick = () => {
