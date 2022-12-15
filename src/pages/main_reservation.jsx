@@ -37,7 +37,7 @@ function MainReservation(props) {
             <h2 className="reserve">Location : {reserv.location}</h2>
             <button
               id={reserv.id}
-              className="btn btn-success ms-5 mt-5"
+              className="btn btn-success ms-6 mt-5"
               type="submit"
               onClick={buttonHandler}
             >

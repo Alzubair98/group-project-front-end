@@ -34,13 +34,14 @@ body {
   border-left-width: 0.2rem;
   border-left-color: lightblue;
   background-color: #eee;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 img {
   width: 100%;
   border-radius: 4rem;
   max-height: 100%;
+  margin-top: 1rem;
 }
 
 .userlogin1 {
@@ -82,7 +83,7 @@ img {
 
 .reserve,
 .reserv_id {
-  font-size: large;
+  font-size: 19px;
   height: 0.1rem;
   text-align: center;
   padding-left: 1rem;
@@ -131,6 +132,7 @@ img {
     width: 70%;
     margin-top: 2rem;
     padding-right: 2rem;
+    position: relative;
   }
 
   .content {
@@ -139,6 +141,7 @@ img {
     width: 50%;
     height: 12rem;
     background-color: white;
+    position: relative;
   }
 
   img {
@@ -148,9 +151,9 @@ img {
     margin-top: 4rem;
   }
 
-  .img {
-    width: 600px;
-    margin-left: 10rem;
+  div .img {
+    width: 70%;
+    margin-left: 9.6rem;
     height: 500px;
   }
 
@@ -168,12 +171,13 @@ img {
     background-color: rgb(82, 201, 201);
     margin-top: -25rem;
     height: 3rem;
-    width: 21rem;
+    width: 24rem;
     margin-right: 4rem;
     border-top-right-radius: 1rem;
     padding-top: 0.7rem;
     padding-right: 1rem;
     padding-left: 1rem;
+    margin-left: -2.9rem;
   }
 
   .bikename {
@@ -198,11 +202,11 @@ img {
 
   .reserve,
   .reserv_id {
-    width: 21rem;
+    width: 24rem;
     font-size: large;
     text-align: end;
     padding-left: 1rem;
-    margin-left: 5.6rem;
+    margin-left: 2.6rem;
     background-color: white;
     border-top: 1px solid;
     border-bottom: 1px solid;
@@ -210,6 +214,7 @@ img {
     margin-top: 0.6rem;
     height: 4rem;
     padding-top: 1.4rem;
+    position: relative;
   }
 
   .mainPagess {
@@ -218,5 +223,9 @@ img {
     background-color: white;
     padding-left: 0;
     margin-left: 19rem;
+  }
+
+  button {
+    margin-left: 9rem;
   }
 }
