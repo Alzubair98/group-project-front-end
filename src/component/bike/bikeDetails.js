@@ -1,11 +1,10 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect } from 'react';
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchBikes } from '../../Redux/bikes/bike';
 import './bikeDetails.css';
-
 
 function BikeDetails(props) {
   const { bikeDetailId } = props;
@@ -29,7 +28,7 @@ function BikeDetails(props) {
           <div className="bodydetails">
             <div className="pricedetails">
             {/* eslint-disable-next-line react/jsx-one-expression-per-line */}
-              <span>${bikers.price}0</span>
+               <span>${bikers.price}0</span>
             </div>
             <div className="textdetails">
             {/* eslint-disable-next-line react/jsx-one-expression-per-line */}
