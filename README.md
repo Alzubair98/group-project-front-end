@@ -38,3 +38,9 @@
 
 **Bikes App** is an online rental app that allows visitors accross the globe rent bikes of different models, in different countries and at their convience. It features easy navigation through our services and bikes available. For each user they can simply view all their bike reservations when login into the app. 
 
+## 🛠 Built With <a name="built-with"></a>
+- Major languages: Ruby
+- Frameworks: Ruby on Rails, React
+- Technologies used: Rubocop, Gem, Postgresql
+- Code Editor: Visual Studio
+
