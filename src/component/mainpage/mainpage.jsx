@@ -46,7 +46,6 @@ function Mainpage(props) {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: false,
-    // autoplaySpeed: 1000,
     beforeChange: (current, next) => setSlideIndex(next),
     centerMode: true,
     nextArrow: <SampleNextArrow />,
