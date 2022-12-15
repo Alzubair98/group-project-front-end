@@ -128,3 +128,18 @@ Clone this repository to your desired folder:
     npm install
 
     npm start
+
+### Build the Development Server
+ This project API is on Ruby on Rails, which sourced through the following steps:
+ Clone this repository to your desired folder:
+
+    cd my-folder
+
+    git clone https://github.com/Alzubair98/group-project-back-end.git
+
+    bundle install
+
+    rails s -p 3001
+
+Open it by accessing http://localhost:3001/ on your browser.
+    
