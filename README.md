@@ -8,3 +8,7 @@
 <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="logo" width="120"  height="auto" />
 <img src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white" alt="logo" width="120"  height="auto" />
 </div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
