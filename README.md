@@ -36,12 +36,12 @@
 
 ##🚴🏻‍♀️🚴🏻‍♂️🚴🏻‍♂️ Bikes App 🌍<a name="about-project"></a>
 
-**Bikes App** is an online rental app that allows visitors accross the globe rent bikes of different models, in different countries and at their convience. It features easy navigation through our services and bikes available. For each user they can simply view all their bike reservations when login into the app. 
+**Bikes App** is an online rental app that allows visitors accross the globe rent bikes of different models, in different countries and at their convience. It features easy navigation through our services and bikes available. For each user they can simply view all their bike reservations when logged into the app. 
 
 ## 🛠 Built With <a name="built-with"></a>
 - Major languages: Ruby
 - Frameworks: Ruby on Rails, React
-- Technologies used: Rubocop, Gem, Postgresql
+- Technologies used: Gem, Postgresql
 - Code Editor: Visual Studio
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -143,7 +143,7 @@ Clone this repository to your desired folder:
 
 Open it by accessing http://localhost:3001/ on your browser.
     
-    ### Create, Drop and, Reset a Database
+### Create, Drop and, Reset a Database
 
     rails db:create
     rails db:drop
@@ -206,5 +206,61 @@ Twitter: @aneallaryea
 
 - [ ] **To add a feature where cost of reservation will be calculated and will be part of reservations**
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+
+Give a ⭐️ if you like this project...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+ We appropriate credit to Murat Korkmaz on Behance the author of the original design, as required by the Creative Commons license of the design
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+- **How to access the reservation form**
+
+  - The bikes are listed with minimal information and a button ``Reserve`` click on it, reservation form will show up and users can fill the form. At  the end they should click on ``Add Reserve`` 
+
+- **How to Sign Up**
+
+  - On visiting the site, the login page has two buttons where you can login or sign up.
+  
+- **How to search for bike**
+
+  -On the dashboard there are slides of bikes, keep sliding through them until you find the right one you want.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
