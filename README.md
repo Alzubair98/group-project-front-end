@@ -143,3 +143,16 @@ Clone this repository to your desired folder:
 
 Open it by accessing http://localhost:3001/ on your browser.
     
+    ### Create, Drop and, Reset a Database
+
+    rails db:create
+    rails db:drop
+    rails db:reset
+
+### Generate Schema
+
+    rails db:migrate
+
+### Generate Controller
+
+    rails generate controller NAME [action action] [options]
