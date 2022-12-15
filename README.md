@@ -116,3 +116,15 @@ In order to run this project you need:
 - JavaScript enabled.
 - Ruby on rails
 - Postgres
+
+### Setup
+
+Clone this repository to your desired folder:
+
+    cd my-folder
+
+    git clone https://github.com/Alzubair98/group-project-front-end.git
+
+    npm install
+
+    npm start
