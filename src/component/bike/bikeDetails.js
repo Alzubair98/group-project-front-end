@@ -1,12 +1,12 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect } from 'react';
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchBikes } from '../../Redux/bikes/bike';
 import './bikeDetails.css';
 
-// react/jsx-one-expression-per-line
+
 function BikeDetails(props) {
   const { bikeDetailId } = props;
   const dispatch = useDispatch();
@@ -28,12 +28,15 @@ function BikeDetails(props) {
           </div>
           <div className="bodydetails">
             <div className="pricedetails">
+            {/* eslint-disable-next-line react/jsx-one-expression-per-line */}
               <span>${bikers.price}0</span>
             </div>
             <div className="textdetails">
+            {/* eslint-disable-next-line react/jsx-one-expression-per-line */}
               <h3> {bikers.name}</h3>
             </div>
             <div className="descriptiondetails">
+            {/* eslint-disable-next-line react/jsx-one-expression-per-line */}
               <p> {bikers.description}</p>
             </div>
 

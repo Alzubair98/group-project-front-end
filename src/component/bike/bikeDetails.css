@@ -88,7 +88,7 @@ h3 {
 
 @media only screen and (max-width: 600px) {
   .carddetails {
-    padding: 5rem 0rem 3rem 5rem;
+    padding: 5rem 0 3rem 5rem;
     background-color: #fff;
     border: 2px solid #fff;
     border-radius: 20px;
