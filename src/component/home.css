@@ -5,18 +5,26 @@
     margin: 0px 2rem 0px 9rem;
 }
 
-.btnout {
-    border: none;
-    padding: 1rem;
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    color: white;
+    border-radius: 25px;
+    width: 30%;
     margin: 0px auto;
-    border-radius: 10px;
-    width: 10rem;
-    font-size: 1rem;
-    font-weight: bold;
-}
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 700;
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
+    border: 0px;
+    cursor: pointer;
+    transition: opacity 0.25s ease-out;
+  }
+  
+  .button:hover{
+    opacity: 0.8;
+  }
 
+ 
