@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { fetchBikes } from "../../Redux/bikes/bike";
-import "./mainpage.module.css";
+import "./mainpage.css";
 import "../carousel/newCarousel.css";
 
 // import icons
