@@ -24,7 +24,9 @@ function Home(props) {
         <Login />
         <Registration />
       </div>
-      <button onClick={() => handleLogoutClick()} className="btnout">logout</button>
+      <button onClick={() => handleLogoutClick()} className="button">
+        logout
+      </button>
     </div>
   );
 }
