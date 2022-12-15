@@ -6,7 +6,6 @@ import Sidebar from "./component/sidebar/sidebar";
 import About from "./pages/about";
 import Dashboard from "./pages/dashboard";
 import MainReservation from "./pages/main_reservation";
-import Review from "./pages/review";
 import axios from "axios";
 import Home from "./component/Home";
 import BikeDetails from "./component/bike/bikeDetails";
@@ -86,7 +85,6 @@ function App() {
             path="/reserve"
             element={<MainReservation data={user.user} />}
           />
-          <Route path="/review" element={<Review />} />
           <Route
             path="/addreserve"
             element={<AddReservation data={user.user} />}
