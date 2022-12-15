@@ -88,13 +88,13 @@ h3 {
 
 @media only screen and (max-width: 600px) {
   .carddetails {
-    padding: 1rem 0;
+    padding: 5rem 0rem 3rem 5rem;
     background-color: #fff;
     border: 2px solid #fff;
     border-radius: 20px;
     box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.05);
     position: relative;
-    margin: 0 1px;
+    margin: 5rem 0 0 9rem;
     scroll-snap-align: center;
     transition: all 0.25s ease;
     display: flex;

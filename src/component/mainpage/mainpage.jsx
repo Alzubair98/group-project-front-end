@@ -99,7 +99,7 @@ function Mainpage(props) {
                 </div>
                 <div className="card-body">
                   <button className="btn-reserve" type="button">
-                    Reserve
+                    <Link to={`/addreserve`}>Reserve</Link>
                   </button>
                   <button
                     className="btn-details"

@@ -9,9 +9,9 @@ a:hover {
 }
 
 .mainpage {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 50px;
+  width: 100%;
+  margin: 2rem 1rem 0rem 4rem;
+  padding: 2rem;
 }
 
 #con-card {
@@ -58,9 +58,12 @@ a:hover {
 
 .con-text {
   width: 100%;
-  padding: 10px 0;
-  opacity: 0.5;
-  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0rem 0rem 0rem;
+  opacity: .5;
+  padding: 0.5rem 0rem;
 }
 
 .con-text h3 {
@@ -81,6 +84,7 @@ a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 2rem 0rem;
 }
 
 .card-body button {
