@@ -156,3 +156,55 @@ Open it by accessing http://localhost:3001/ on your browser.
 ### Generate Controller
 
     rails generate controller NAME [action action] [options]
+
+### Deployment
+
+You can deploy this project using: Heroku
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+##  👤👤 Authors <a name="authors"></a> 🖊📖
+
+
+👤 **Alzubair Alqaraghuli**
+
+GitHub: @alzubair
+Twitter: @alzubair
+LinkedIn: alzubair
+  
+👤 **Francis Wayungi** 
+
+GitHub: @githubhandle
+Twitter: @twitterhandle
+LinkedIn: LinkedIn
+
+
+👤 **Aneal Laryea** 
+
+Github: @aneallaryea
+LinkdIn: @aneallaryea
+Twitter: @aneallaryea
+
+ 
+👤 **Ijeoma Odinko**
+
+- GitHub: @ijeomaodinko
+- Twitter: @Iodinko
+- LinkedIn: ijeomaodinko
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Add a feature that at the dashboard display bikes based on model, visitors   can click on a model to see different categories of bike**
+
+- [ ] **To add a reservation form that has calendar where users can select start date and end date, thereby will calculate the number of days each bike should be reserved for a user and then released for public**
+
+- [ ] **To add a feature where cost of reservation will be calculated and will be part of reservations**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
