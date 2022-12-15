@@ -34,9 +34,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-##🚴🏻‍♀️🚴🏻‍♂️🚴🏻‍♂️ Bikes App 🌍<a name="about-project"></a>
+## 🚴🏻‍♀️🚴🏻‍♂️🚴🏻‍♂️ Bikes App 🌍<a name="about-project"></a>
 
-**Bikes App** is an online rental app that allows visitors accross the globe rent bikes of different models, in different countries and at their convience. It features easy navigation through our services and bikes available. For each user they can simply view all their bike reservations when logged into the app. 
+**Bikes App** is an online rental app that allow visitors accross the globe rent bikes of different models, in different countries and at their convience. It features easy navigation through our services and bikes available. For each user they can simply view all their bike reservations when logged into the app. 
 
 ## 🛠 Built With <a name="built-with"></a>
 - Major languages: Ruby
@@ -69,7 +69,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Listing of all Bikes **
+- **Listing of all Bikes**
 - **Details of each bike**
 - **User authentication**
 - **Visitors can signup to enjoy services**
@@ -170,22 +170,22 @@ You can deploy this project using: Heroku
 
 👤 **Alzubair Alqaraghuli**
 
-GitHub: @alzubair
-Twitter: @alzubair
-LinkedIn: alzubair
+- GitHub: @alzubair
+- Twitter: @alzubair
+- LinkedIn: alzubair
   
 👤 **Francis Wayungi** 
 
-GitHub: @githubhandle
-Twitter: @twitterhandle
-LinkedIn: LinkedIn
+- GitHub: @githubhandle
+- Twitter: @twitterhandle
+- LinkedIn: LinkedIn
 
 
 👤 **Aneal Laryea** 
 
-Github: @aneallaryea
-LinkdIn: @aneallaryea
-Twitter: @aneallaryea
+- Github: @aneallaryea
+- LinkdIn: @aneallaryea
+- Twitter: @aneallaryea
 
  
 👤 **Ijeoma Odinko**
@@ -250,7 +250,7 @@ Give a ⭐️ if you like this project...
   
 - **How to search for bike**
 
-  -On the dashboard there are slides of bikes, keep sliding through them until you find the right one you want.
+  - On the dashboard there are slides of bikes, keep sliding through them until you find the right one you want.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
