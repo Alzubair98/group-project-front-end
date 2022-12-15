@@ -86,3 +86,25 @@
 
 
 - [Live Demo Link](link to site)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running follow these simple steps.
+
+Open your console. Run the following 
+
+If you are using HTTPS
+
+    "git clone https://github.com/Alzubair98/group-project-front-end.git
+
+If you are using a SSH key.
+
+    "https://github.com/Alzubair98/group-project-front-end.git
+
+
+Press ENTER to create your local clone. After creating it, you can open the app through the open folder in Vscode or type   `cd group-project-front-end`    on the terminal 
+
