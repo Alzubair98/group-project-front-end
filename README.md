@@ -108,3 +108,11 @@ If you are using a SSH key.
 
 Press ENTER to create your local clone. After creating it, you can open the app through the open folder in Vscode or type   `cd group-project-front-end`    on the terminal 
 
+
+### Prerequisites
+
+In order to run this project you need:
+- A modern web browser like Chrome, Safari, Firefox, etc.
+- JavaScript enabled.
+- Ruby on rails
+- Postgres
