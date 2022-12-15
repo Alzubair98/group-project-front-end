@@ -33,11 +33,11 @@ body {
    background-color: #eee;
 }
 
-img {
+/* img {
     width: 100%;
     border-radius: 4rem;
     max-height: 100%;
-}
+} */
 
 .userlogin1 {
     text-align: right;
@@ -128,18 +128,6 @@ body {
     background-color: white;
 }
 
- img {
-    width: 100%;
-    border-radius: 4rem;
-    margin-left: -10rem;
-    margin-top: 4rem;
-}
-
-.img {
-    width: 600px;
-    margin-left: 12rem;
-    height: 500px;
-}
 .bikeuser {
     width: 14rem;
     align-content:flex-end;
