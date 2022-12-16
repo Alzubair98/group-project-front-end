@@ -32,12 +32,6 @@ function Sidebar({ children }) {
       icon: <AiOutlineSolution />,
     },
     {
-      path: "/review",
-      name: "Review",
-      icon: <AiOutlineSolution />,
-    },
-
-    {
       path: "/about",
       name: "About",
       icon: <AiOutlineSolution />,
@@ -50,6 +44,11 @@ function Sidebar({ children }) {
     {
       path: "/addreserve",
       name: "AddReserve",
+      icon: <AiOutlineSolution />,
+    },
+    {
+      path: "/deletereserv",
+      name: "Delete Reserv",
       icon: <AiOutlineSolution />,
     },
   ];

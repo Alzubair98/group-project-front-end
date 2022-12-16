@@ -8,11 +8,11 @@ a:hover {
   color: #fff;
 }
 
-.mainpage {
-  width: 100%;
-  margin: 2rem 1rem 0 4rem;
-  padding: 2rem;
-}
+/* .mainpage {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 50px;
+} */
 
 #con-card {
   padding: 1rem 1rem;
@@ -23,7 +23,7 @@ a:hover {
   width: 30rem;
 
   /* min-width: 300px; */
-  height: 27rem;
+  /* height: 27rem; */
   position: relative;
 
   /* margin: 0px 15px; */
@@ -58,12 +58,9 @@ a:hover {
 
 .con-text {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 1rem 0 0 0;
+  padding: 10px 0;
   opacity: 0.5;
-  padding: 0.5rem 0;
+  font-size: 0.8rem;
 }
 
 .con-text h3 {
@@ -84,7 +81,6 @@ a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 2rem 0;
 }
 
 .card-body button {

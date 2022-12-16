@@ -6,12 +6,12 @@ import Sidebar from "./component/sidebar/sidebar";
 import About from "./pages/about";
 import Dashboard from "./pages/dashboard";
 import MainReservation from "./pages/main_reservation";
-import Review from "./pages/review";
 import axios from "axios";
 import Home from "./component/Home";
 import BikeDetails from "./component/bike/bikeDetails";
 import AddReservation from "./pages/addreservatoin";
 import Message from "./pages/msg";
+import DeleteMainReservation from "./pages/delete_main_reservation";
 
 function App() {
   const [user, setUser] = useState({
@@ -87,10 +87,19 @@ function App() {
             path="/reserve"
             element={<MainReservation data={user.user} />}
           />
-          <Route path="/review" element={<Review />} />
           <Route
             path="/addreserve"
             element={<AddReservation data={user.user} />}
+          />
+
+          <Route
+            path="/deletereserv"
+            element={<DeleteMainReservation data={user.user} />}
+          />
+
+          <Route
+            path="/deletereserv"
+            element={<DeleteMainReservation data={user.user} />}
           />
 
           <Route

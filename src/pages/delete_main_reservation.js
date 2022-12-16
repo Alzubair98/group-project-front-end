@@ -5,8 +5,8 @@ import { loadReservations } from "../Redux/reservations/reservation";
 import { useDispatch } from "react-redux";
 import Reservation from "./reservation";
 import "./main_reservation.css";
- 
-function MainReservation(props) {
+
+function DeleteMainReservation(props) {
   const { data } = props;
 
   const [buttonid, setButtonid] = useState(0);
@@ -37,7 +37,7 @@ function MainReservation(props) {
             <h2 className="reserve">Location : {reserv.location}</h2>
             <button
               id={reserv.id}
-              className="btn btn-success ms-6 mt-5 resserveBtn"
+              className="btn btn-success ms-6 mt-5"
               type="submit"
               onClick={buttonHandler}
             >
@@ -50,4 +50,4 @@ function MainReservation(props) {
   );
 }
 
-export default MainReservation;
+export default DeleteMainReservation;
