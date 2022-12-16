@@ -102,7 +102,7 @@ function App() {
             element={<DeleteMainReservation data={user.user} />}
           />
 
-          <Route
+          {/* <Route
             path="/about"
             element={
               <About
@@ -111,7 +111,7 @@ function App() {
                 loggedInStatus={user.loggedInStatus}
               />
             }
-          />
+          /> */}
           <Route
             path="/home"
             element={
