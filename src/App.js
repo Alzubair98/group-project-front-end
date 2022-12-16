@@ -28,7 +28,7 @@ function App() {
 
   const checkLoginStatus = () => {
     axios
-      .get("http://localhost:3001/logged_in", { withCredentials: true })
+      .get("https://bikee.onrender.com/logged_in", { withCredentials: true })
       .then((response) => {
         if (
           response.data.logged_in &&
@@ -112,7 +112,12 @@ function App() {
               />
             }
           />
-          <Route path="/home" element={<Home handleLogout={handleLogout} />} />
+          <Route
+            path="/home"
+            element={
+              <Home handleLogin={handleLogin} handleLogout={handleLogout} />
+            }
+          />
           <Route path="/msg" element={<Message />} />
         </Routes>
       </Sidebar>

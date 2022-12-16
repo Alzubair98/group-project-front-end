@@ -12,7 +12,7 @@ function DeleteReservation(props) {
 
   const get_user_bike = () => {
     axios
-      .get("http://localhost:3001/reservations/" + id)
+      .get("https://bikee.onrender.com/reservations/" + id)
       .then((response) => {
         setData(response.data);
       })
@@ -23,7 +23,7 @@ function DeleteReservation(props) {
 
   const delete_reserv = () => {
     axios
-      .post("http://localhost:3001/destroy", {
+      .post("https://bikee.onrender.com/destroy", {
         reservation: { id: buttonID },
       })
       .then((response) => {

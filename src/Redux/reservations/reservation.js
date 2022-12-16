@@ -4,7 +4,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 const LOADING = "LOADING";
 
-const url = "http://localhost:3001/reservations";
+const url = "https://bikee.onrender.com/reservations";
 
 export const loadReservations = createAsyncThunk(LOADING, async () => {
   const response = await axios.get(url);

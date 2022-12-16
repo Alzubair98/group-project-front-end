@@ -35,7 +35,7 @@ const AddReservation = (props) => {
 
   const handleSubmit = (event) => {
     axios
-      .post("http://localhost:3001/reservations", {
+      .post("https://bikee.onrender.com/reservations", {
         reservation: {
           user: reservation.user,
           bike: reservation.bike,

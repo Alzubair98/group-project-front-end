@@ -21,7 +21,7 @@ const Login = (props) => {
   const handleSubmit = (event) => {
     axios
       .post(
-        "http://localhost:3001/sessions",
+        "https://bikee.onrender.com/sessions",
         {
           user: {
             username: user.username,
@@ -31,6 +31,7 @@ const Login = (props) => {
       )
       .then((response) => {
         if (response.data.logged_in) {
+          props.handleSuccessfulAuth(response.data);
           navigate("/");
           console.log("logged in", response);
         }

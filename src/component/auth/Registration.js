@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import "./auth.css";
 
-const Rigstration = () => {
+const Rigstration = (props) => {
   const [user, setUser] = useState({
     username: "",
     registrationErrors: "",
@@ -21,7 +21,7 @@ const Rigstration = () => {
   const handleSubmit = (event) => {
     axios
       .post(
-        "http://localhost:3001/registrations",
+        "https://bikee.onrender.com/registrations",
         {
           user: { username: user.username },
         },
@@ -29,6 +29,7 @@ const Rigstration = () => {
       )
       .then((response) => {
         if (response.data.status === "created") {
+          props.handleSuccessfulAuth(response.data);
           navigate("/");
           console.log(response);
         }
