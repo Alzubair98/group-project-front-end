@@ -96,7 +96,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](link to site)
+- [Live Demo Link](https://helpful-douhua-bfc6b0.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
