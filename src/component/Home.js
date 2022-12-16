@@ -8,7 +8,7 @@ import "./home.css";
 function Home(props) {
   const handleLogoutClick = () => {
     axios
-      .delete("http://localhost:3001/logout", { withCredentials: true })
+      .delete("https://bikee.onrender.com//logout", { withCredentials: true })
       .then((response) => {
         props.handleLogout();
       })
@@ -18,11 +18,15 @@ function Home(props) {
     props.handleLogout();
   };
 
+  const handleSuccessfulAuth = (data) => {
+    props.handleLogin(data);
+  };
+
   return (
     <div>
       <div className="home-div">
-        <Login />
-        <Registration />
+        <Login handleSuccessfulAuth={handleSuccessfulAuth} />
+        <Registration handleSuccessfulAuth={handleSuccessfulAuth} />
       </div>
       <button onClick={() => handleLogoutClick()} className="button">
         logout
