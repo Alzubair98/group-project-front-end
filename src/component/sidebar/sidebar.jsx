@@ -31,11 +31,7 @@ function Sidebar({ children }) {
       name: "Reservation",
       icon: <AiOutlineSolution />,
     },
-    {
-      path: "/about",
-      name: "About",
-      icon: <AiOutlineSolution />,
-    },
+
     {
       path: "/home",
       name: "Home",
