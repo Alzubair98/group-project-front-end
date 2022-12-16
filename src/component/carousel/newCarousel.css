@@ -1,9 +1,10 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
-/* .slider {
+.slider {
   width: 100%;
-} */
+  display: block;
+}
 
 .header {
   margin: 50px auto;
@@ -67,5 +68,10 @@
 @media screen and (max-width: 768px) {
   .header {
     font-size: 7vw;
+  }
+
+  .slider {
+    width: 100%;
+    display: none;
   }
 }

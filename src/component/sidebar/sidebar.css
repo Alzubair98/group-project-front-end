@@ -1,9 +1,9 @@
 @media only screen and (max-width: 600px) {
   .sidebar {
-    background-color: red;
     width: 4rem;
     position: fixed;
     height: 100%;
+    z-index: 2;
   }
 
   .bars {

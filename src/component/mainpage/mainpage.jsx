@@ -114,6 +114,41 @@ function Mainpage(props) {
             ))}
           </Slider>
         </div>
+        <div className="flacs">
+          {bikes.map((bike, index) => (
+            <div
+            id="con-card"
+            className="flacscard"
+            key={bike.id}
+          >
+            <div className="con-image">
+              <img src={bike.image} alt={bike.name} />
+              <img className="bg" src="ghana.png" alt="bg" />
+            </div>
+            <div className="con-text">
+              <h3>{bike.name}</h3>
+            </div>
+            <div className="con-price">
+              <span>${bike.price}0</span>
+            </div>
+            <div className="card-body">
+              <button className="btn-reserve" type="button">
+                <Link to={`/addreserve`}>Reserve</Link>
+              </button>
+              <button
+                className="btn-details"
+                type="button"
+                onClick={handleBikeDetails}
+              >
+                <Link id={bike.id} to={`/bikes/${bike.id}`}>
+                  Details
+                </Link>
+              </button>
+            </div>
+          </div>
+          ))}
+            
+        </div>
       </div>
     </>
   );
