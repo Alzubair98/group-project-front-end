@@ -1,70 +1,266 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-## Available Scripts
+ <img src="https://badgen.net/builder#badge/Ruby%20on%20Rails/7.0.4/red" alt="logo" width="120"  height="auto" />
+<img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="logo" width="120"  height="auto" />
+<img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="logo" width="120"  height="auto" />
+<img src="https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white" alt="logo" width="120"  height="auto" />
+</div>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
 
-### `npm start`
+# 📗 Table of Contents
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Run tests](#run-tests)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- PROJECT DESCRIPTION -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚴🏻‍♀️🚴🏻‍♂️🚴🏻‍♂️ Bikes App 🌍<a name="about-project"></a>
 
-### `npm test`
+**Bikes App** is an online rental app that allow visitors accross the globe rent bikes of different models, in different countries and at their convience. It features easy navigation through our services and bikes available. For each user they can simply view all their bike reservations when logged into the app. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Built With <a name="built-with"></a>
+- Major languages: Ruby
+- Frameworks: Ruby on Rails, React
+- Technologies used: Gem, Postgresql
+- Code Editor: Visual Studio
 
-### `npm run build`
+### Tech Stack <a name="tech-stack"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://rubyonrails.org/">RubyonRails</a></li>
+  </ul>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
-### `npm run eject`
+### Key Features <a name="key-features"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Listing of all Bikes**
+- **Details of each bike**
+- **User authentication**
+- **Visitors can signup to enjoy services**
+- **Users login to access their reservations**
+- **Form avaiability for reservation**
+- **Users can delete reserved bike**
+- **Views are for both mobile and desktop**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- LIVE DEMO -->
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Live Demo <a name="live-demo"></a>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Live Demo Link](link to site)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Code Splitting
+<!-- GETTING STARTED -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Analyzing the Bundle Size
+To get a local copy up and running follow these simple steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Open your console. Run the following 
 
-### Making a Progressive Web App
+If you are using HTTPS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    "git clone https://github.com/Alzubair98/group-project-front-end.git
 
-### Advanced Configuration
+If you are using a SSH key.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    "https://github.com/Alzubair98/group-project-front-end.git
+
+
+Press ENTER to create your local clone. After creating it, you can open the app through the open folder in Vscode or type   `cd group-project-front-end`    on the terminal 
+
+
+### Prerequisites
+
+In order to run this project you need:
+- A modern web browser like Chrome, Safari, Firefox, etc.
+- JavaScript enabled.
+- Ruby on rails
+- Postgres
+
+### Setup
+
+Clone this repository to your desired folder:
+
+    cd my-folder
+
+    git clone https://github.com/Alzubair98/group-project-front-end.git
+
+    npm install
+
+    npm start
+
+### Build the Development Server
+ This project API is on Ruby on Rails, which sourced through the following steps:
+ Clone this repository to your desired folder:
+
+    cd my-folder
+
+    git clone https://github.com/Alzubair98/group-project-back-end.git
+
+    bundle install
+
+    rails s -p 3001
+
+Open it by accessing http://localhost:3001/ on your browser.
+    
+### Create, Drop and, Reset a Database
+
+    rails db:create
+    rails db:drop
+    rails db:reset
+
+### Generate Schema
+
+    rails db:migrate
+
+### Generate Controller
+
+    rails generate controller NAME [action action] [options]
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy this project using: Heroku
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- AUTHORS -->
+
+##  👤👤 Authors <a name="authors"></a> 🖊📖
+
+
+👤 **Alzubair Alqaraghuli**
+
+- GitHub: @alzubair
+- Twitter: @alzubair
+- LinkedIn: alzubair
+  
+👤 **Francis Wayungi** 
+
+- GitHub: @githubhandle
+- Twitter: @twitterhandle
+- LinkedIn: LinkedIn
+
+
+👤 **Aneal Laryea** 
+
+- Github: @aneallaryea
+- LinkdIn: @aneallaryea
+- Twitter: @aneallaryea
+
+ 
+👤 **Ijeoma Odinko**
+
+- GitHub: @ijeomaodinko
+- Twitter: @Iodinko
+- LinkedIn: ijeomaodinko
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Add a feature that at the dashboard display bikes based on model, visitors   can click on a model to see different categories of bike**
+
+- [ ] **To add a reservation form that has calendar where users can select start date and end date, thereby will calculate the number of days each bike should be reserved for a user and then released for public**
+
+- [ ] **To add a feature where cost of reservation will be calculated and will be part of reservations**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+
+Give a ⭐️ if you like this project...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+ We appropriate credit to Murat Korkmaz on Behance the author of the original design, as required by the Creative Commons license of the design
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+- **How to access the reservation form**
+
+  - The bikes are listed with minimal information and a button ``Reserve`` click on it, reservation form will show up and users can fill the form. At  the end they should click on ``Add Reserve`` 
+
+- **How to Sign Up**
+
+  - On visiting the site, the login page has two buttons where you can login or sign up.
+  
+- **How to search for bike**
+
+  - On the dashboard there are slides of bikes, keep sliding through them until you find the right one you want.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
