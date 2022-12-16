@@ -11,6 +11,11 @@ body {
   width: 328px;
 }
 
+.reserv-img{
+  height: 50rem;
+  width: 50rem;
+}
+
 .cardContainer {
   display: block;
   width: 100%;
