@@ -29,15 +29,15 @@ function DeleteMainReservation(props) {
   return (
     <div>
       {user_reservation.map((reserv, index) => (
-        <div key={index} className="cardContainer">
-          <div className="container">
+        <div key={index} className="">
+          <div className="">
             <Reservation id={reserv.id} buttonID={buttonid} />
           </div>
-          <div className="content">
-            <h2 className="reserve">Location : {reserv.location}</h2>
+          <div className="">
+            <h2 className="">Location : {reserv.location}</h2>
             <button
               id={reserv.id}
-              className="btn btn-success ms-6 mt-5"
+              className="btn btn-success ms-6 "
               type="submit"
               onClick={buttonHandler}
             >

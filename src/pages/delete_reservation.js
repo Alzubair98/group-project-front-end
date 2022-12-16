@@ -42,14 +42,12 @@ function DeleteReservation(props) {
   }, []);
 
   return (
-    <div className="cardContainerr">
-      <h1 className="userlogin1">{data.user.username}'s reservation </h1>
-      <div className="img">
-        <img src={data.bike.image} alt="bike img" />
+    <div className="">
+      <div className="">
+        <img src={data.bike.image} className="reserv-img" alt="bike img" />
       </div>
-      <div className="bikeuser">
-        <h1 className="userlogin">{data.user.username}'s reservation </h1>
-        <h1 className="bikename"> {data.bike.name}</h1>
+      <div className="">
+        <h1 className=""> {data.bike.name}</h1>
       </div>
     </div>
   );
