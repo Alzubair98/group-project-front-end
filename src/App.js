@@ -11,6 +11,7 @@ import axios from "axios";
 import Home from "./component/Home";
 import BikeDetails from "./component/bike/bikeDetails";
 import AddReservation from "./pages/addreservatoin";
+import Message from "./pages/msg";
 
 function App() {
   const [user, setUser] = useState({
@@ -103,6 +104,7 @@ function App() {
             }
           />
           <Route path="/home" element={<Home handleLogout={handleLogout} />} />
+          <Route path="/msg" element={<Message />} />
         </Routes>
       </Sidebar>
     </BrowserRouter>

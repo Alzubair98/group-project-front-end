@@ -1,5 +1,6 @@
 /* eslint-disable */
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 function Reservation(props) {
@@ -21,12 +22,15 @@ function Reservation(props) {
       });
   };
 
+  const navigate = useNavigate();
+
   const delete_reserv = () => {
     axios
       .post("http://localhost:3001/destroy", {
         reservation: { id: buttonID },
       })
       .then((response) => {
+        navigate("/msg");
         console.log(response);
       })
       .catch((error) => {
@@ -40,7 +44,7 @@ function Reservation(props) {
   useEffect(() => {
     get_user_bike();
   }, []);
- 
+
   return (
     <div className="cardContainerr">
       <h1 className="userlogin1">{data.user.username}'s reservation </h1>
