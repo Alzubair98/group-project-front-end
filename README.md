@@ -12,6 +12,7 @@
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
+
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
@@ -34,11 +35,22 @@
 
 <!-- PROJECT DESCRIPTION -->
 
+## Kanban board
+
+![here](https://github.com/Alzubair98/group-project-back-end/projects/1)
+
+## the image
+
+![Alt text](c:/Users/ROG/Desktop/project%20screenshot.png)
+
+## we are team of 4 people
+
 ## 🚴🏻‍♀️🚴🏻‍♂️🚴🏻‍♂️ Bikes App 🌍<a name="about-project"></a>
 
-**Bikes App** is an online rental app that allow visitors accross the globe rent bikes of different models, in different countries and at their convience. It features easy navigation through our services and bikes available. For each user they can simply view all their bike reservations when logged into the app. 
+**Bikes App** is an online rental app that allow visitors accross the globe rent bikes of different models, in different countries and at their convience. It features easy navigation through our services and bikes available. For each user they can simply view all their bike reservations when logged into the app.
 
 ## 🛠 Built With <a name="built-with"></a>
+
 - Major languages: Ruby
 - Frameworks: Ruby on Rails, React
 - Technologies used: Gem, Postgresql
@@ -84,7 +96,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
 - [Live Demo Link](link to site)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -95,7 +106,7 @@
 
 To get a local copy up and running follow these simple steps.
 
-Open your console. Run the following 
+Open your console. Run the following
 
 If you are using HTTPS
 
@@ -105,13 +116,12 @@ If you are using a SSH key.
 
     "https://github.com/Alzubair98/group-project-front-end.git
 
-
-Press ENTER to create your local clone. After creating it, you can open the app through the open folder in Vscode or type   `cd group-project-front-end`    on the terminal 
-
+Press ENTER to create your local clone. After creating it, you can open the app through the open folder in Vscode or type `cd group-project-front-end` on the terminal
 
 ### Prerequisites
 
 In order to run this project you need:
+
 - A modern web browser like Chrome, Safari, Firefox, etc.
 - JavaScript enabled.
 - Ruby on rails
@@ -130,8 +140,9 @@ Clone this repository to your desired folder:
     npm start
 
 ### Build the Development Server
- This project API is on Ruby on Rails, which sourced through the following steps:
- Clone this repository to your desired folder:
+
+This project API is on Ruby on Rails, which sourced through the following steps:
+Clone this repository to your desired folder:
 
     cd my-folder
 
@@ -142,7 +153,7 @@ Clone this repository to your desired folder:
     rails s -p 3001
 
 Open it by accessing http://localhost:3001/ on your browser.
-    
+
 ### Create, Drop and, Reset a Database
 
     rails db:create
@@ -165,29 +176,26 @@ You can deploy this project using: Heroku
 
 <!-- AUTHORS -->
 
-##  👤👤 Authors <a name="authors"></a> 🖊📖
-
+## 👤👤 Authors <a name="authors"></a> 🖊📖
 
 👤 **Alzubair Alqaraghuli**
 
 - GitHub: @alzubair
 - Twitter: @alzubair
 - LinkedIn: alzubair
-  
-👤 **Francis Wayungi** 
+
+👤 **Francis Wayungi**
 
 - GitHub: @githubhandle
 - Twitter: @twitterhandle
 - LinkedIn: LinkedIn
 
-
-👤 **Aneal Laryea** 
+👤 **Aneal Laryea**
 
 - Github: @aneallaryea
 - LinkdIn: @aneallaryea
 - Twitter: @aneallaryea
 
- 
 👤 **Ijeoma Odinko**
 
 - GitHub: @ijeomaodinko
@@ -200,12 +208,11 @@ You can deploy this project using: Heroku
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add a feature that at the dashboard display bikes based on model, visitors   can click on a model to see different categories of bike**
+- [ ] **Add a feature that at the dashboard display bikes based on model, visitors can click on a model to see different categories of bike**
 
 - [ ] **To add a reservation form that has calendar where users can select start date and end date, thereby will calculate the number of days each bike should be reserved for a user and then released for public**
 
 - [ ] **To add a feature where cost of reservation will be calculated and will be part of reservations**
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,7 +230,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
 Give a ⭐️ if you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -232,7 +238,7 @@ Give a ⭐️ if you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
- We appropriate credit to Murat Korkmaz on Behance the author of the original design, as required by the Creative Commons license of the design
+We appropriate credit to Murat Korkmaz on Behance the author of the original design, as required by the Creative Commons license of the design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -242,16 +248,15 @@ Give a ⭐️ if you like this project...
 
 - **How to access the reservation form**
 
-  - The bikes are listed with minimal information and a button ``Reserve`` click on it, reservation form will show up and users can fill the form. At  the end they should click on ``Add Reserve`` 
+  - The bikes are listed with minimal information and a button `Reserve` click on it, reservation form will show up and users can fill the form. At the end they should click on `Add Reserve`
 
 - **How to Sign Up**
 
   - On visiting the site, the login page has two buttons where you can login or sign up.
-  
+
 - **How to search for bike**
 
   - On the dashboard there are slides of bikes, keep sliding through them until you find the right one you want.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
