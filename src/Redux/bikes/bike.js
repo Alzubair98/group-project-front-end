@@ -7,7 +7,9 @@ const initialState = {
 };
 
 export const fetchBikes = createAsyncThunk("bike/fetchBikes", async () => {
-  const response = await fetch("https://bikee.onrender.com/bikes");
+  const response = await fetch("https://bikee.onrender.com/bikes", {
+    mode: "no-cors",
+  });
   const data = await response.json();
   return data;
 });
