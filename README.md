@@ -49,7 +49,7 @@
   <summary>Major Languages </summary>
   <ul>
     <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
-    <li><a href="https://reactjs.org/">Javascript</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Javascript</a></li>
   </ul>
 </details>
 
