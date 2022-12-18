@@ -39,8 +39,6 @@
 ![Click this Link to visit the project Kanban board](https://github.com/Alzubair98/group-project-back-end/projects/1)
 
 
-
-
 ## 🚴🏻‍♀️🚴🏻‍♂️🚴🏻‍♂️ Bikes App 🌍<a name="about-project"></a>
 
 **Bikes App** is an online rental app that allow visitors accross the globe rent bikes of different models, in different countries and at their convience. It features easy navigation through our services and bikes available. For each user they can simply view all their bike reservations when logged into the app.
