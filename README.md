@@ -45,6 +45,14 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
+<details>
+  <summary>Major Languages </summary>
+  <ul>
+    <li><a href="https://reactjs.org/">Ruby</a></li>
+    <li><a href="https://reactjs.org/">Javascript</a></li>
+  </ul>
+</details>
+
 ##### Major languages: 
 - Ruby
 - JavaScript
