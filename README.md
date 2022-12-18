@@ -51,7 +51,8 @@
 ##### Frameworks: 
 - Ruby on Rails, 
 - React
-##### Technologies used: Gem, Postgresql
+##### Technologies used: 
+  Postgresql
 - Code Editor: Visual Studio
 
 ### Tech Stack <a name="tech-stack"></a>
