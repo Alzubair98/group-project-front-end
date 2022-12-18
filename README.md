@@ -40,7 +40,6 @@
 
 
 
-## we are team of 4 people
 
 ## 🚴🏻‍♀️🚴🏻‍♂️🚴🏻‍♂️ Bikes App 🌍<a name="about-project"></a>
 
