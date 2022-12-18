@@ -45,7 +45,9 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- Major languages: Ruby
+##### Major languages: 
+- Ruby
+- JavaScript
 - Frameworks: Ruby on Rails, React
 - Technologies used: Gem, Postgresql
 - Code Editor: Visual Studio
