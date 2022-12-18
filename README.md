@@ -118,11 +118,9 @@
 
 To get a local copy up and running follow these simple steps.
 
-Open your console. Run the following
-
-If you are using HTTPS
-
-    "git clone https://github.com/Alzubair98/group-project-front-end.git
+### Clone the repo
+    On your favourite commandline terminal
+    ***Run*** "git clone https://github.com/Alzubair98/group-project-front-end.git
 
 If you are using a SSH key.
 
