@@ -120,10 +120,9 @@ To get a local copy up and running follow these simple steps.
 
 ### Clone the repo
     On your favourite commandline terminal
-    ***Run*** "git clone https://github.com/Alzubair98/group-project-front-end.git
+   ``` ***Run*** git clone https://github.com/Alzubair98/group-project-front-end.git ```
 
 If you are using a SSH key.
-
     "https://github.com/Alzubair98/group-project-front-end.git
 
 Press ENTER to create your local clone. After creating it, you can open the app through the open folder in Vscode or type `cd group-project-front-end` on the terminal
