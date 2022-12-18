@@ -51,7 +51,7 @@
 ##### Frameworks: 
 - Ruby on Rails, 
 - React
-##### Technologies used: 
+##### Database: 
   Postgresql
 - Code Editor: Visual Studio
 
