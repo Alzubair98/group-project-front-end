@@ -53,7 +53,6 @@
 - React
 ##### Database: 
 - Postgresql
-- Code Editor: Visual Studio
 
 ### Tech Stack <a name="tech-stack"></a>
 
