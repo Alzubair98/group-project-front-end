@@ -52,7 +52,7 @@
 - Ruby on Rails, 
 - React
 ##### Database: 
-  Postgresql
+- Postgresql
 - Code Editor: Visual Studio
 
 ### Tech Stack <a name="tech-stack"></a>
