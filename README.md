@@ -53,9 +53,6 @@
   </ul>
 </details>
 
-##### Major languages: 
-- Ruby
-- JavaScript
 ##### Frameworks: 
 - Ruby on Rails, 
 - React
