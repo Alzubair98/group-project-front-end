@@ -68,10 +68,6 @@
   </ul>
 </details>
 
-
-##### Database: 
-- Postgresql
-
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
