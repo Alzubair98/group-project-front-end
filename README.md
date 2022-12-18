@@ -39,7 +39,6 @@
 ![Click this Link to visit the project Kanban board](https://github.com/Alzubair98/group-project-back-end/projects/1)
 
 
-![Alt text](c:/Users/ROG/Desktop/project%20screenshot.png)
 
 ## we are team of 4 people
 
