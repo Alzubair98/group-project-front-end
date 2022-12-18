@@ -37,7 +37,7 @@
 
 ## Kanban board
 
-![here](https://github.com/Alzubair98/group-project-back-end/projects/1)
+![Click this Link to visit the project Kanban board](https://github.com/Alzubair98/group-project-back-end/projects/1)
 
 ## the image
 
