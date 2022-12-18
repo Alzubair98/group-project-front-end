@@ -64,7 +64,7 @@
 <details>
   <summary>Database </summary>
   <ul>
-    <li><a href="https://reactjs.org/">Postgresql</a></li>
+    <li><a href="https://www.postgresql.org/">Postgresql</a></li>
   </ul>
 </details>
 
