@@ -125,7 +125,8 @@ To get a local copy up and running follow these simple steps.
    2. On the github project page
    ```Download the project folder to your local machine```
 
-Press ENTER to create your local clone. After creating it, you can open the app through the open folder in Vscode or type `cd group-project-front-end` on the terminal
+### Navigate to the project directory
+``` cd group-project-front-end```
 
 ### Prerequisites
 
