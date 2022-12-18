@@ -48,7 +48,9 @@
 ##### Major languages: 
 - Ruby
 - JavaScript
-- Frameworks: Ruby on Rails, React
+##### Frameworks: 
+- Ruby on Rails, 
+- React
 - Technologies used: Gem, Postgresql
 - Code Editor: Visual Studio
 
