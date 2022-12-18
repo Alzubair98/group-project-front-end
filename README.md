@@ -61,10 +61,14 @@
   </ul>
 </details>
 
+<details>
+  <summary>Database </summary>
+  <ul>
+    <li><a href="https://reactjs.org/">Postgresql</a></li>
+  </ul>
+</details>
 
-##### Frameworks: 
-- Ruby on Rails, 
-- React
+
 ##### Database: 
 - Postgresql
 
